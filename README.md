@@ -14,7 +14,7 @@ Transit agencies, policy teams, and researchers sit on large safety datasets tha
 > *"Show me fatal incidents in New York City since 2020."*  
 > *"Which agencies have the highest injury rates?"*
 
-The assistant finds the most relevant records, passes them to Claude, and returns a cited, plain-English answer grounded in the actual data — not a hallucination.
+The assistant finds the most relevant records, passes them to Claude, and returns a cited, plain-English answer grounded in the actual data.
 
 ---
 
@@ -60,7 +60,7 @@ Most enterprise AI use cases boil down to: *"I have data. I want to ask question
 FTA Major Safety Events — published by the Federal Transit Administration on the DOT Open Data Portal:  
 https://data.transportation.gov/Public-Transit/Major-Safety-Events/9ivb-8ae9
 
-This is data I helped validate and publish during my time managing the National Transit Database program at Boyd Caton Group. The dataset covers transit safety incidents (collisions, derailments, fires, personal casualties) across U.S. transit agencies from 2014–present.
+This is data I helped validate and publish during my time managing projects for the National Transit Database program. The dataset covers transit safety incidents (collisions, derailments, fires, personal casualties) across U.S. transit agencies from 2014–present.
 
 ---
 
