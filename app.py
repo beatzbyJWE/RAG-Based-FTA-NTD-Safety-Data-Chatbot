@@ -9,7 +9,7 @@ Run with:
 
 import streamlit as st
 from src.assistant import ask
-from src.embeddings import index_count, index_chunks
+from src.embeddings import index_count, index_chunks, index_summary
 from src.ingest import fetch_fta_data, prepare_chunks
 from src.ingest_manual import prepare_manual_chunks
 
@@ -60,7 +60,17 @@ def load_or_build_index() -> int:
     return index_count()
 
 doc_count = load_or_build_index()
-st.success(f"✅ Index loaded — {doc_count:,} safety events available")
+summary = index_summary()
+if summary["manual_sections"] > 0:
+    st.success(
+        f"✅ Index loaded — {summary['events']:,} safety event records "
+        f"+ {summary['manual_sections']} NTD manual sections"
+    )
+else:
+    st.warning(
+        f"⚠️ Index loaded — {summary['events']:,} safety event records only. "
+        f"NTD manual not found — add data/ntd_manual.pdf and rebuild for richer answers."
+    )
 
 # ── Sidebar controls ──────────────────────────────────────────────────────────
 with st.sidebar:

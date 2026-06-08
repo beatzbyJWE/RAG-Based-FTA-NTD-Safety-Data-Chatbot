@@ -140,6 +140,17 @@ def index_count() -> int:
         return 0
 
 
+def index_summary() -> dict:
+    """Return a breakdown of indexed documents by source type."""
+    try:
+        _, _, _, metadatas = _load_index()
+        events = sum(1 for m in metadatas if m.get("source") != "manual")
+        manual = sum(1 for m in metadatas if m.get("source") == "manual")
+        return {"total": len(metadatas), "events": events, "manual_sections": manual}
+    except ValueError:
+        return {"total": 0, "events": 0, "manual_sections": 0}
+
+
 def retrieve(query: str, n_results: int = 8) -> list[dict]:
     """
     Embed the query via Voyage AI and return top-n chunks by cosine similarity.
