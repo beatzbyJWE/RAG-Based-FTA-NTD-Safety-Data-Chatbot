@@ -11,6 +11,7 @@ import streamlit as st
 from src.assistant import ask
 from src.embeddings import index_count, index_chunks
 from src.ingest import fetch_fta_data, prepare_chunks
+from src.ingest_manual import prepare_manual_chunks
 
 CLOUD_RECORD_LIMIT = 10_000  # Keeps cold-start build under ~2 minutes
 
@@ -42,10 +43,18 @@ def load_or_build_index() -> int:
 
     with st.spinner("Fetching safety events from data.transportation.gov..."):
         df = fetch_fta_data(limit=CLOUD_RECORD_LIMIT, use_cache=False)
+        event_chunks = prepare_chunks(df)
 
-    with st.spinner(f"Embedding {len(df):,} records via Voyage AI..."):
-        chunks = prepare_chunks(df)
-        index_chunks(chunks)
+    try:
+        with st.spinner("Loading NTD Safety & Security Policy Manual..."):
+            manual_chunks = prepare_manual_chunks(use_cache=False)
+    except FileNotFoundError:
+        manual_chunks = []
+        st.warning("NTD manual PDF not found in data/ — indexing events only. "
+                   "Add data/ntd_manual.pdf and rebuild for richer answers.")
+
+    with st.spinner(f"Embedding {len(event_chunks) + len(manual_chunks):,} documents via Voyage AI..."):
+        index_chunks(event_chunks + manual_chunks)
 
     placeholder.empty()
     return index_count()

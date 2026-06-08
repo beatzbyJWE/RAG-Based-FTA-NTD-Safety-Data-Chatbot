@@ -1,0 +1,3493 @@
+National Transit Database 
+Safety & Security Policy Manual 
+January 2026
+Office of Budget and Policy 
+
+This guidance document is not legally binding in its own right and the Federal Transit 
+Administration will not rely upon it as a separate basis for affirmative enforcement 
+actions or other administrative penalty. Conformity with this document (as distinct 
+from existing statutes and regulations) is voluntary only, and nonconformity will not 
+affect rights and obligations under existing statutes and regulations. 
+This document supersedes the November 2025 National Transit Database Safety & 
+Security Policy Manual. 
+
+2026 Safety & Security Polic
+y Manual 
+Table of Contents 
+Introduction: The National Transit Database.............................................................. 1 
+History ......................................................................................................................... 1 
+Safety and Security Reporting Requirements ............................................................ 2 
+Frequently Asked Questions........................................................................................ 2 
+Who Reports................................................................................................................ 2 
+Reporting Overview ..................................................................................................... 3 
+When to Report ........................................................................................................... 4 
+Where to Report .......................................................................................................... 5 
+Failure to Report, Late Reports, or Incomplete Reports .............................................. 5 
+S&S-20: Safety and Security CEO Certification.......................................................... 7 
+S&S-30: Security Configuration................................................................................... 8 
+Overview...................................................................................................................... 8 
+Primary Security Configuration .................................................................................... 9 
+Secondary Security Configuration ............................................................................... 9 
+Personnel Totals........................................................................................................ 10 
+S&S-40: Major Event Report....................................................................................... 14 
+Overvi
+ew.................................................................................................................... 14 
+When to Report a Major Event............................................................................... 14 
+Predominant Use ................................................................................................... 15 
+Major Event Threshold Descriptions.......................................................................... 20 
+Fatality.................................................................................................................... 20 
+Injury ...................................................................................................................... 21 
+Property Damage ................................................................................................... 25 
+Evacuation ............................................................................................................. 28 
+Derailment.............................................................................................................. 29 
+Collisions Involving Tow-Aways ............................................................................. 30 
+Automatically Reportable Rail Collisions................................................................ 31 
+Runaway Trains ..................................................................................................... 32 
+Table of Contents – i 
+
+ 
+ 
+2026 Safety and Securit
+y Policy Manual 
+Event Types............................................................................................................... 33 
+Collisions................................................................................................................ 34 
+Evacuation (Sub-Form) .......................................................................................... 54 
+Derailments............................................................................................................ 54 
+Fires ....................................................................................................................... 59 
+Hazardous Material Spills....................................................................................... 62 
+Acts of God ............................................................................................................ 63 
+Security Events ...................................................................................................... 65 
+Other Safety Events ............................................................................................... 77 
+S&S-50: Non-Major Monthly Summary Report ......................................................... 81 
+Overview.................................................................................................................... 81 
+Multi-Agency Facilities ........................................................................................... 82 
+Predominant Use ................................................................................................... 82 
+Non-Major Assaults on Transit Workers .................................................................... 83 
+Number of Other Safety Incidents ............................................................................. 86 
+Number of Non-Major Fires ....................................................................................... 88 
+Appendix A: Safety and Security Data Reports........................................................ 90 
+ii – Table of Contents 
+
+ 
+ 
+2026 Safety & Security
+ Policy Manual 
+List of Exhibits 
+Exhibit 1: Summary of NTD S&S Reporting Requirements............................................. 3 
+Exhibit 2: NTD Safety and Security Reporting Timeline: S&S-40.................................... 4 
+Exhibit 3: NTD Safety and Security Reporting Timeline: S&S-50.................................... 5 
+Exhibit 4: Security Configuration Types........................................................................... 8 
+Exhibit 5: Reporting Thresholds .................................................................................... 16 
+Exhibit 6: Fatality Decision Flowchart............................................................................ 21 
+Exhibit 7: Injury Decision Flowchart .............................................................................. 24 
+Exhibit 8: Non-Rail Property Damage Decision Flowchart ............................................ 27 
+Exhibit 9: Evacuation Decision Flowchart...................................................................... 29 
+Exhibit 10: Derailment Decision Flowchart.................................................................... 30 
+Exhibit 11: Event Types................................................................................................. 33 
+Exhibit 12: Non-Rail Collision Decision Flowchart......................................................... 35 
+Exhibit 13: Rail Collision Decision Flowchart................................................................. 36 
+Exhibit 14: Suicide or Attempted Suicide Decision Flowchart ....................................... 37 
+Exhibit 15: Basic Information Screen Key Descriptions................................................. 39 
+Exhibit 16: Collisi
+on Event Information Form Key Descriptions—Location Selections .. 40 
+Exhibit 17: Collision Event Information Form Key Descriptions—Collision With 
+Selections...................................................................................................................... 42 
+Exhibit 18: Collision Information Additional Details ....................................................... 44 
+Exhibit 19: Transit/Other Vehicle Actions ...................................................................... 48 
+Exhibit 20: Transit and Other Vehicle Collision Type Key Descriptions......................... 49 
+Exhibit 21: Collision Impact Point Diagram.................................................................... 50 
+Exhibit 22: Collision Other Vehicle Involved Key Descriptions ...................................... 51 
+Exhibit 23: Injury and Fatality Type Form Details .......................................................... 52 
+List of Exhibits – iii 
+
+ 
+ 
+2026 Safety and Security Policy Manual 
+Exhibit 24: Derailment Event Information Key Descriptions .......................................... 56 
+Exhibit 25: Derailment Rail Transit Involved Key Descriptions ...................................... 58 
+Exhibit 26: Fire Decision Flowchart ............................................................................... 60 
+Exhibit 27: Rail Fire Event Details Key Descriptions ..................................................... 61 
+Exhibit 28: Hazardous Material Spill Decision Flowchart............................................... 62 
+Exhibit 29: Hazardous Material Spills Event Details Key Descriptions .......................... 63 
+Exhibit 30: Acts of God Details Key Descriptions .......................................................... 64 
+Exhibit 31: Security Event Decision Flowchart .............................................................. 66 
+Exhibit 32: System Security Event Details Key Descriptions—Security Event Types ... 67 
+Exhibit 33: System Security Event Details Key Descriptions—Location........................ 70 
+Exhibit 34: Personal Security Event Details Key Descriptions—Security Event Types . 72 
+Exhibit 35: Personal Security Event Details Key Descriptions – Locations ................... 75 
+Exhibit 36: Other Safety Event Decision Flowchart ....................................................... 78 
+Exhibit 37: Other Event Details Key Descriptions.......................................................... 79 
+Exhibit 38: Transit Worker Descriptions ........................................................................ 84 
+Exhibit 39: Location Selections ..................................................................................... 85 
+Exhibit 40: Number of Safety Incidents Key Descriptions ............................................87
+iv – List of Exhibits 
+
+ 
+ 
+2026 Safety & Security Policy Manual 
+List of Examples 
+Example 1: Calculating Personnel Totals...................................................................... 10 
+Example 2: Allocating Security Personnel Example...................................................... 11 
+Example 3: Security Configurations .............................................................................. 12 
+Example 4: Events Reportable to the NTD.................................................................... 18 
+Example 5: Events Not Reportable to the NTD ............................................................. 20 
+Example 6: Injuries........................................................................................................ 23 
+Example 7: Calculating Property Damage..................................................................... 27 
+Example 8: Collisions Involving Tow-Away ................................................................... 31 
+Example 9: Runaway Train ........................................................................................... 32 
+Example 10: Non-Reportable Collision.......................................................................... 38 
+Example 11: Reporting “Collision With”......................................................................... 44 
+Example 12: Collision Type........................................................................................... 50 
+Example 13: Derailment Reporting ............................................................................... 57 
+Example 14: Cyber Security Event Reporting ............................................................... 71 
+Example 15: Security Event Major Event Type Reporting............................................. 76 
+Example 16: Major Event Assault on Transit Worker Reporting.................................... 77 
+Example 17: Other Safety Event Major Event Type Reporting...................................... 80 
+Example 18: Non-Major Event Assault on a Transit Worker Reporting......................... 84 
+Example 19: Safety Incidents Reporting........................................................................88 
+Example 20: Fire Event................................................................................................. 89 
+List of Examples – v 
+
+ 
+ 
+2026 Safety and Sec
+urity Policy Manual 
+Acronyms and Abbreviations 
+General Terms 
+Acronym Description of Term 
+CEO Chief Executive Officer 
+CFR Code of Federal Regulations 
+DO Directly Operated 
+FRA Federal Railroad Administration 
+FTA Federal Transit Administration 
+FTE Full-Time Equivalents 
+IT Information Technology 
+NTD National Transit Database 
+PT Purchased Transportation 
+RTA Rail Transit Agency 
+RVI ID Revenue Vehicle Inventory Identification number 
+S&S Safety and Security 
+SUV Sport Utility Vehicle 
+TOS Type of Service 
+Modes 
+Acronym Description of Term 
+AR Alaska Railroad 
+CB Commuter Bus 
+CC Cable Car 
+CR Commuter Rail 
+DR Demand Response 
+FB Ferryboat 
+HR Heavy Rail 
+IP Inclined Plane 
+JT Jitney 
+vi – Acronyms and Abbreviations 
+
+2026 Safety & Security Policy Manual 
+Acronyms and Abbreviations – vii 
+Acronym Description of Term 
+LR Light Rail 
+MB Bus 
+MG Monorail/Automated Guideway 
+PB Público 
+RB Bus Rapid Transit 
+SR Streetcar Rail 
+TB Trolleybus 
+TN Transportation Network Company 
+TR Aerial Tramway 
+VP Vanpool 
+YR Hybrid Rail 
+Vehicle Type Codes 
+Acronym Description of Term 
+AB Articulated Bus 
+AO Automobile 
+BR Over-the-Road Bus 
+BU Bus 
+CC Cable Car 
+CR Commuter Rail Vehicle 
+CU Cutaway 
+DB Double Decker Bus 
+FB Ferryboat 
+HR Heavy Rail Passenger Car 
+IP Inclined Plane Vehicle 
+LR Light Rail Vehicle 
+MV Minivan 
+PB Público 
+RL Commuter Rail Locomotive 
+
+2026 Safety and Security Policy Manual 
+viii – Acronyms and Abbreviations 
+Acronym Description of Term 
+RP Commuter Rail Passenger Coach 
+RS Commuter Rail Self-Propelled Passenger Car 
+SB School Bus 
+SV Sports Utility Vehicle (SUV) 
+TB Trolleybus 
+TR Aerial Tramway Vehicle 
+TS Taxicab Sedan 
+TV Taxicab Van 
+TW Taxicab Station Wagon 
+VN Van 
+VT Vintage Trolley/Streetcar 
+
+2026 Safety & Security Policy Manual 
+2026 Safety and Security (S&S) System Changes – ix 
+Report Year 2026 System Changes and Clarifications 
+Description of Update Type of Update Form(s) Affected 
+Found in 
+Manual 
+Disabling Damage sub-
+selection when Substantial 
+Damage is chosen 
+Data Collection 
+Change by Form 
+Rail Collision Set 
+Up Screen 2 
+— 
+The term “Disabling damage” 
+was removed from the question, 
+“Did this event result in a tow-
+away due to disabling 
+damage?” 
+Update Non-Rail Collision 
+Set-up Screen 2; 
+Rail and Non-Rail 
+Other Vehicle 
+Involved; and 
+Non-Rail Transit 
+Vehicle Involved 
+— 
+Reporting events that occur 
+during the same time and place 
+Clarification S&S-40 — 
+Copper Wire Theft reporting 
+hierarchy 
+Clarification S&S-40 System 
+Security 
+— 
+New Service Stop location 
+option for Non-transit Collisions 
+Data Collection 
+Change by Form 
+Rail and Non-Rail 
+Non-Transit 
+Collision 
+— 
+Security Configuration launch 
+date for fixed-guideway modes 
+Update S&S-30 — 
+Injury exclusion additional 
+guidance 
+Clarification — — 
+Life-Safety situation additional 
+guidance 
+Update — — 
+Vandalism and Sabotage 
+events and substantial damage 
+threshold 
+Clarification — — 
+— Not applicable. 
+
+2026 Safety and Security Policy Manual 
+x – 2026 Safety and Security (S&S) System Changes 
+
+2026 Safety & Security Policy Manual 
+Introduction – 1 
+Introduction: The National Transit Database 
+History 
+The National Transit Database (NTD) was established in 1974 and has evolved into the 
+Nation’s primary source of information and statistics on transit systems . The Federal 
+Transit Administration (FTA) provides billions of dollars each year in transit assistance, in 
+part based on the data collected through the NTD. For a more complete history of the 
+NTD, list of legislative requirements, list and definitions of public transit modes, and 
+general reporting requirements and definitions, visit the most recently published NTD 
+annual NTD Full Reporting Policy Manual.
+
+2026 Safety and Security Policy Manual 
+2 – Reporting Requirements 
+Safety and Security Reporting Requirements 
+Frequently Asked Questions 
+For convenience, FTA maintains a Frequently Asked Questions page to address common 
+concerns about when, how, and what to report (refer to the “Safety and Security” section). 
+Who Reports 
+Safety and Security (S&S) reporters are those transit agencies that submit a Full Report 
+to the NTD , also called “Full Reporters .”1 Transit agencies reporting as Reduced 
+Reporters or Rural Reporters do not report S&S data on the reporting forms on the Safety 
+& Security tab. Instead, these agencies report S&S data on their Annual Report. For more 
+information about NTD reporting types, please refer to the most recently published NTD 
+Full Reporting Policy Manual. 
+Beneficiaries and recipients of §5307 and §5311 funds must file an Annual Report with 
+the NTD. FTA defines a Federal grant beneficiary as a transit agency that directly or 
+indirectly receives §5307 or §5311 money. This includes grant money that agencies 
+receive from pass-through funding, contracts, or purchased transportation agreements. 
+ 
+FTA assigns an S&S analyst to each transit agency. Please contact your S&S 
+analyst if you need assistance reporting S&S data. If you do not know the name 
+or contact information of your S&S analyst, please contact the NTD Help Desk 
+at NTDhelp@dot.gov. 
+1 For the purposes of this manual, FTA refers to NTD reporters as “ transit agencies ” for simplicity and 
+consistency with other NTD reporting manuals. 
+
+2026 Safety & Security Policy Manual 
+Reporting Requirements – 3 
+Reporting Overview 
+Transit agencies provide transit-related S&S data and reportable events that meet NTD 
+reporting thresholds. Exhibit 1 presents a summary of NTD S&S reporting requirements. 
+Exhibit 1: Summary of NTD S&S Reporting Requirements 
+NTD S&S Reports Who reports? 
+Chief Executive Officer Certification 
+(S&S-20) 
+All Full Reporters 
+Security Configuration (S&S-30) All Full Reporters 
+Major Event Report (S&S-40) (safety 
+events) 
+All Full Reporters, except Commuter Rail 
+(CR) and Alaska Railroad (AR) modes 
+Major Event Report (S&S-40) (security 
+events) 
+All Full Reporters 
+Non-Major Monthly Summary Report 
+(S&S-50) 
+All Full Reporters. CR and AR modes 
+must only report non-major assaults on a 
+transit worker. 
+Transit agencies provide detailed information about severe S&S events on the Major 
+Event Report (S&S -40). Transit agencies must submit one report for each major event 
+that meets NTD reporting thresholds. For more information about major event thresholds, 
+refer to the “S&S-40: Major Event Report” section of this manual. 
+Transit agencies summarize less severe events on the Non -Major Monthly Summary 
+Report (S&S -50), which captures safety events that meet the NTD injury threshold in 
+addition to non-major fires and non-major assaults (security events) on a transit worker. 
+Assaults on a transit worker do not require an injury to be reportable on the S&S -50. 
+Transit agencies must submit an S&S-50 each month. For more information about non-
+major events, refer to the “S&S-50: Non-Major Monthly Summary Report” section of this 
+manual. 
+Note: CR, AR, and selected YR modes only report security events (including suicides, 
+attempted suicides, security -related evacuations, assaults, etc.) to the NTD. Therefore, 
+CR, AR, and selected YR modes will submit monthly S&S-50 reports for non -major 
+assaults on a transit worker. 
+
+2026 Safety and Security Policy Manual 
+4 – Reporting Requirements 
+When to Report 
+The S&S reporting module covers the 12-month calendar year. This reporting period may 
+differ from NTD reporters’ fiscal years. S&S reporters must provide all S&S data for 2026 
+by January 31, 2027. The previous reporting year will remain open for edits until the end 
+of April the following calendar year (e.g., reporters may edit 2025 data through April 2026). 
+Agencies reporting rail modes, or non-rail modes with Fixed Guideway segments, report 
+with the initiation of the engineering or construction phases of the project. This is based 
+on the Commitment Date on the Modes (P-20) form. Please refer to the “When to Report 
+a Major Event” section of this manual for rail mode exclusions to reporting. 
+Exhibit 2: NTD Safety and Security Reporting Timeline: S&S-40 
+The Major Event Report S&S -40 is due no later than 30 days after the date of the 
+event. 
+System Tips: 
+• To create a new Major Event Report, select “File New S&S-40.”
+• The NTD system automatically generates the Non -Major Event Report at the
+beginning of each month for each mode and type of service (TOS).
+Transit agencies must submit the Security Configuration (S&S-30) for each mode/TOS to 
+enable the Non-Major Event (S&S-50) form or the S&S-40 Major Event form. This form is 
+due by February 28, 2026. 
+Transit agencies are to complete an S&S-40 Major Event form within the timeline 
+(Exhibit 2
+) if an event meets the reporting threshold (Exhibit 5 can assist in 
+determining a reportable event).
+Transit agencies must submit the Non-Major summary form (S&S-50) for each mode and 
+TOS on their Annual Report every month, even if no event occurs. 
+
+2026 Safety & Security Policy Manual 
+Reporting Requirements – 5 
+Exhibit 3: NTD Safety and Security Reporting Timeline: S&S-50 
+Month Due Date 
+January February 28 
+February March 31 
+March April 30 
+April May 31 
+May June 30 
+June July 31 
+July August 31 
+August September 30 
+September October 31 
+October November 30 
+November December 31 
+December January 31 
+Where to Report 
+Transit agencies complete the required forms, waivers, and declarations using the NTD 
+Reporting Tool. The Safety and Security Reporting Package launches at the beginning of 
+the calendar year, typically by January 4. The reporting tool automatically generates the 
+Security Configuration (S&S -30) and monthly Non-Major Summary Report (S&S -50). 
+Once users complete their S&S-30s, they may complete the required S&S screens. 
+Failure to Report, Late Reports, or Incomplete Reports 
+Federal law requires transit agencies reporting to the NTD to submit complete reports by 
+their due date (refer to 49 CFR 630.6). Failure to report may occur when an agency does 
+not submit a report, submits a late report, or submits an incomplete report. Please refer 
+to the most recently published NTD Full Reporting Policy Manual for more information on 
+a Failure to Report. 
+An S&S-50 report is considered late if it is not submitted by the due date. 
+
+2026 Safety and Security Policy Manual 
+6 – Reporting Requirements 
+A report is incomplete if an agency has not performed the following: 
+• Completed the required reporting components, 
+• Submitted the required data, or 
+• Submitted information in conformance to NTD reporting requirements. 
+
+2026 Safety & Security Policy Manual 
+S&S-20 CEO Certification – 7 
+S&S-20: Safety and Security CEO Certification 
+The Chief Executive Officer (CEO) of each transit agency must submit an annual Safety 
+and Security CEO Certification (S&S -20). The S&S -20 serves as an agency’s 
+confirmation that all the S&S data submitted are accurate for the calendar year 2024. 
+The S&S-20 automatically tallies the number of events, injuries, and fatalities that the 
+agency reports across Major Event reporting forms. It also includes the number of events, 
+injuries, fires, and assaults on transit workers on the Non -Major Summary form. It only 
+tallies submitted reports that have submission dates; reports that have only been saved 
+(and thus have no submission dates) are not included. 
+If the number of events, injuries, or fatalities is incorrect, the agency may edit, add, or 
+delete the applicable reports or check that all reports are submitted. The S&S -20 
+automatically incorporates any submitted changes. Once submitted, agencies cannot 
+resubmit the S&S-20. 
+The agency’s CEO must complete the S&S-20 by the end of February 2026. Completing 
+the form involves checking the submit boxes and selecting “Submit.” To prevent agencies 
+from inadvertently submitting the S&S-20 prior to the end of the reporting calendar year, 
+the S&S -20 becomes available only after February 1 . The “Submit” button will be 
+unavailable if any S&S-30 or S&S-50 form shows a Status of “Open” or “Returned” or any 
+S&S-40 shows a status of “Open,” “Returned,” or “Submitted.” 
+
+2026 Safety and Security Policy Manual 
+8 – S&S-30 Security Configuration 
+S&S-30: Security Configuration 
+Overview 
+The Security Configuration (S&S-30) indicates the number and type of personnel that 
+respond to security events or provide security on a transit agency’s property. The agency 
+chooses the type of personnel that most closely represents its configuration from a list of 
+seven selections. The agency must complete one S&S -30 for each rep orted mode and 
+type of service (TOS). The S&S-30 is due by February 28, 2026. 
+For fixed -guideway modes where agencies are required to submit reportable events 
+during the engineering or construction phases of a project, most commonly rail modes, 
+there may be an extended period before the modes Start Date. Therefore, if the 
+Commitment Date is during or before the S&S Report Year and there is no Start Date, or 
+the Start Date is after the S&S Report Year, then the reporter is able to enter S&S-40 and 
+S&S-50 data for that mode without an S&S-30 launched and populated. 
+Exhibit 4: Security Configuration Types 
+Type Definition 
+Dedicated transit 
+police force 
+A (sworn) police force that works only for the transit agency. 
+Dedicated 
+(transit) unit of 
+local police 
+A municipal police force or sheriff’s department (not paid for 
+directly by the agency) that has a specific transit unit or 
+department. 
+Contracted local 
+law enforcement 
+A local police department or sheriff’s department that is 
+contracted by a transit agency to provide security services. 
+Transit agency 
+security force 
+In-house non-sworn security guards (i.e., not sworn police 
+officers). In this case, the security guards are employees of the 
+transit agency. 
+Contracted 
+security force 
+Contracted non-sworn security guards (i.e., not sworn police 
+officers). 
+Off-duty police 
+officers 
+Off-duty police officers who “moonlight” at a transit agency (e.g., 
+the agency contracts directly with individual off-duty officers as 
+opposed to contracting with a private company that may be 
+staffed by a combination of off-duty police officers and other 
+personnel). 
+
+2026 Safety & Security Policy Manual 
+S&S-30 Security Configuration – 9 
+Type Definition 
+Use of local 
+police (non-
+contracted) 
+Local police or a sheriff’s department provides security for a 
+transit agency. An agency would select this option if it does not 
+pay for this coverage through a contractual arrangement. The 
+local police or sheriff’s department includes transportation in its 
+general policing activities. 
+Note: Full-Time Equivalents (FTE) are always 0 for this type of 
+personnel. 
+Security personnel are reported as “Primary” and/or “Secondary” configurations and are 
+defined as follows: 
+• Primary security personnel are those who routinely patrol or respond to events on 
+transit property. 
+• Secondary security forces are those who occasionally respond to events occurring 
+on transit property or those who assist the primary force. 
+If an agency has a dedicated transit police force that responds to events across two 
+modes, but one of those modes never requires a security response, the agency may 
+report 0 security personnel for that mode. 
+Note: Agencies must complete the S&S-30 prior to entering data in any other S&S event 
+report. 
+Primary Security Configuration 
+Agencies may only report one primary security type on the S&S -30 form. If an agency 
+has more than one type of security force, the agency must choose one (typically the larger 
+or more often used security force) to report as primary and report the other (s) as 
+secondary. On the form, enter the Number of Primary Security Personnel. 
+Secondary Security Configuration 
+Secondary security forces occasionally respond to events occurring on transit property or 
+assist the primary force. An agency may report as many Secondary Security 
+Configuration types as are applicable. On the form, e nter the Number of Secondary 
+Security Personnel. 
+
+2026 Safety and Security Policy Manual 
+10 – S&S-30 Security Configuration 
+Personnel Totals 
+Agencies must report security personnel in terms of FTEs according to the staffing levels 
+at the beginning of the year. One FTE means one full -time equivalent, typically working 
+40 hours per week (or 2,080 hours per year). An agency may use any reasonable method 
+to allocate personnel across modes, such as allocating based on modal ridership or on 
+modal annual trips. 
+In certain instances, agencies may base personnel numbers on the prior year’s total hours 
+worked. For example, if an agency contracts for security and pays a monthly fee based 
+on services provided, it may use the prior year’s total -hours-worked to arrive at the 
+number of security FTE for the current year. 
+To report personnel that spend only part of their time providing security, agencies may 
+prorate the estimated FTE number and allocate that number across modes. If personnel 
+provide transit security for more than one mode, agencies may allocate the prorated 
+estimated FTE number across modes. S&S reports may provide numbers rounded to the 
+nearest tenth. 
+Example 1: Calculating Personnel Totals 
+Scenario Solution 
+Scenario A: An agency operates Demand 
+Response (DR) and Bus (MB) service and 
+contracts with a security company that 
+provides two security personnel to patrol 
+the transit center 8 hours a day, 5 days a 
+week. Each person works a 4-hour shift, or 
+20 hours per week. The MB/Directly 
+Operated (DO) mode uses the transit 
+center, but the DR/DO mode does not. 
+Scenario A: For Primary Security 
+Personnel, the agency would report 1 FTE 
+for MB/DO and 0 for DR/DO. The Number 
+of Secondary Personnel is 0 for each 
+mode. 
+
+2026 Safety & Security Policy Manual 
+S&S-30 Security Configuration – 11 
+Example 2: Allocating Security Personnel Example 
+Scenario Solution 
+Scenario A: Enumerating Security 
+Personnel 
+A transit agency uses four full-time 
+employees plus one-third of an 
+additional employee’s time to provide 
+security on its buses. 
+Solution A: 
+The agency reports 4.3 for the “Number of 
+Primary Security Personnel.” 
+Scenario B: Allocating Security 
+Personnel With Varying Use Across 
+Modes 
+A transit agency operates both MB and 
+Light Rail (LR) service. The transit 
+agency has 12 security guards to patrol 
+its non-revenue facilities (administrative 
+buildings). The transit agency contracts 
+an additional five guards to respond only 
+to events on its light rail vehicles. This 
+means there are a total of 17 full-time 
+security guards. The agency also uses 
+Non-Contracted Local Police for the MB 
+mode. There are 400 MB and 100 LR 
+employees working in the administrative 
+buildings. 
+Solution B: 
+For MB mode: 
+• The agency reports 9.6 for the “Number 
+of Primary Security Personnel.” 
+400 MB employees ÷ 500 total 
+employees = 0.8 
+0.8 × 12 security guards = 9.6 
+• The agency selects “Transit agency 
+security force” for the primary 
+configuration. 
+• The agency reports 0 for the “Number of 
+Secondary Personnel.” 
+The agency selects “Local police non-
+contracted” for secondary configuration. 
+For LR mode: 
+• The agency reports 5 for the “Number of 
+Primary Security Personnel.” 
+• The agency selects “Contracted security 
+force” for the primary configuration. 
+• The agency reports 2.4 for the “Number 
+of Secondary Personnel” (The “Total 
+Number of Security Personnel” will 
+calculate to 7.4). 
+100 LR employees ÷ 500 total 
+employees = 0.2 
+0.2 × 12 security guards = 2.4 
+2.4 + 5 security guards = 7.4 
+
+2026 Safety and Security Policy Manual 
+12 – S&S-30 Security Configuration 
+Scenario Solution 
+• The agency also selects “Transit agency 
+security force” for the secondary 
+configuration. 
+Scenario C: Use of Part-time Security 
+Personnel: 
+A transit agency operates LR and MB 
+service. The agency has a full-time 
+dedicated transit police force of 
+30 officers for both modes and has a 
+contract with the local police to use 10 
+off-duty police officers for 4-hour shifts 
+during peak periods. This means that 
+they have 15 full-time security personnel 
+for each mode plus 2.5 part-time security 
+personnel for each mode (10 part-time = 
+5 full-time divided by 2 modes). 
+Solution C: 
+For both the LR S&S-30 and the MB 
+S&S-30: 
+• The agency reports 15 for the “Number 
+of Primary Security Personnel.” 
+• The agency selects “Dedicated transit 
+police force” for the primary 
+configuration. 
+• The agency reports 2.5 for the “Number 
+of Secondary Personnel.” 
+• The agency selects “Off-duty police 
+officers” for the secondary configuration. 
+Example 3: Security Configurations 
+Scenario Solution 
+Scenario A: Primary and Secondary 
+Security Configurations
+A transit agency that operates only MB 
+service uses 12 transit-employed security 
+guards to patrol their non-revenue facilities 
+and respond to any events that may occur 
+on their buses. Local police are called 
+occasionally to respond to more serious 
+events. The agency considers the security 
+guards to constitute their primary security 
+configuration. 
+Solution A: 
+• The agency reports 12 “Primary 
+Security Personnel” and 0 “Number of 
+Secondary Personnel.” 
+• The agency selects “Transit agency 
+security force” for the primary 
+configuration. 
+• The agency selects “Use of local police 
+(non-contracted)” for the secondary 
+configuration. 
+
+2026 Safety & Security Policy Manual 
+S&S-30 Security Configuration – 13 
+Scenario Solution 
+Scenario B: Multiple Secondary Security 
+Configurations 
+A transit agency that operates only MB 
+service employs a dedicated transit police 
+force of 15 officers that they consider their 
+primary means of security. In addition, the 
+agency hires 20 security guards to patrol 
+parking lots and occasionally calls the 
+local police department to respond to 
+events. 
+Solution B: 
+• The agency reports 15 for “Primary 
+Security Personnel.” 
+• The agency reports 20 for “Number of 
+Secondary Personnel.” 
+• The agency selects “Dedicated transit 
+police” for the primary configuration. 
+• The agency selects “Contracted 
+security force” and “Use of local police 
+(non-contracted)” for the secondary 
+configuration. 
+Scenario C: Same Primary and 
+Secondary Personnel Types 
+A transit agency operates Streetcar Rail 
+(SR) service. The agency uses 
+two contracted local law enforcement 
+personnel dedicated to patrol two service 
+stops. The agency also uses two 
+contracted local law enforcement 
+personnel to ride the streetcar on 
+two routes. 
+Solution C: 
+• The agency reports 2 for the “Number 
+of Primary Security Personnel.” 
+• The agency reports 2 for the “Number 
+of Secondary Personnel.” 
+• The agency selects “Contracted local 
+law enforcement” for the both the 
+primary and secondary configuration. 
+
+2026 Safety and Security Policy Manual 
+14 – S&S-40 Major Event Report 
+S&S-40: Major Event Report 
+Overview 
+The Major Event Report (S&S -40) captures detailed information on severe safety and 
+security (S&S) events that occur within a transit environment. Agencies must complete 
+one S&S-40 per reportable event, regardless of how many thresholds an event meets. 
+For example, if a transit bus and an automobile collide, resulting in a fatality, and the auto 
+is towed due to disabling damage, this event meets multiple reporting thresholds, but the 
+agency would only submit one report. 
+When to Report a Major Event 
+A reportable event is one that meets any NTD reporting threshold (as specified herein ) 
+and includes the following: 
+• Occurs at a transit revenue facility, maintenance facility, or rail yard; 
+• Occurs on transit right-of-way or infrastructure (the underlying framework or 
+structures that support a public transportation system); 
+• Occurs during a transit-related maintenance activity; or 
+• Involves a transit revenue vehicle. 
+This event reporting requirement does not include the following: 
+• Events that occur off transit property where affected individuals, vehicles, or 
+objects come to rest on transit property after the event;2
+• Occupational safety events occurring in administrative buildings; 
+• Events that occur during the engineering or construction phases of a new rail 
+transit system or the extension of an existing rail transit system, unless they involve 
+transit-related activities such as operations, testing, simulated service , pre-
+revenue service, or a transit-related maintenance activity; 
+• Deaths that are confirmed to be a result of illness, drug overdose, or other natural 
+causes, outside of a reportable event (deaths of undetermined cause in a rail right 
+of way that may be the result of collision or electrocution are reportable); 
+2 This is an event that causes an injury or death that occurs off the property, but the individual ends up on 
+transit property. For example, the following events would not be reportable: 
+• A car hits a person on a city street and throws the person onto the rail right-of-way. 
+• An individual is injured in an assault off transit property and comes to the station seeking assistance. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 15 
+• Other events (assault, robbery, non-transit vehicle collisions, etc.) occurring at bus 
+stops or shelters that are not on transit-owned property unless the event involves 
+either a transit vehicle or a person boarding/alighting from a vehicle;
+o Bus stops or shelters owned by municipalities or authorities that also 
+operate transit systems are not considered “transit-owned” property (refer 
+to the most current annual NTD Full Reporting Policy Manual for more detail 
+distinguishing bus stops from facilities).
+• Collisions that occur while transit personnel are travelling to or from a transit-
+related maintenance activity in a service vehicle or maintenance vehicle; and
+• Collisions involving a supervisor car or other non-revenue transit service vehicle 
+operating on public roads.
+Predominant Use 
+The Predominant Use Rule is applied when an event affects more than one mode. If 
+two or more transit modes within an agency are affected by an event, the agency would 
+report the event in only one mode. For example: 
+• If the event involves rail and non-rail, the agency reports the event in the rail mode.
+• If the event involves two rail modes or two non-rail modes, the agency selects the
+mode to report based on predominant use.
+The volume of passengers served by a mode most often measures predominant use. For 
+example, if an event occurred in a multimodal station served by Heavy Rail and LR, the 
+agency would report the event under LR based on the higher volumes of LR boarding 
+passengers. 
+For every reporting threshold that an event meets, the agency must provide further 
+information related to that threshold. For example, if an event results in three injuries, the 
+agency must provide basic details for every injured person, including their ge nder, age, 
+and “person type” (passenger, transit employee, cyclist, pedestrian, etc.). 
+Note: CR and AR modes only report security events (including suicides, attempted 
+suicides, security-related evacuations, assaults, etc.) to the NTD. Therefore, CR and AR 
+modes will submit monthly S&S-50 reports for non-major assaults on a transit worker. 
+
+2026 Safety and Security Policy Manual 
+16 – S&S-40 Major Event Report 
+Exhibit 5: Reporting Thresholds 
+Non-Rail and Ferry Modes Rail Modes 
+Fatalities: 
+• Confirmed within 30 days, and 
+• Include suicides. 
+Fatalities: 
+• Confirmed within 30 days, and 
+• Include suicides 
+Injuries: Immediate transport away 
+from the scene for medical attention for 
+one or more persons. 
+• Injuries (non-serious): Immediate 
+transport away from the scene for 
+medical attention for one or more 
+persons. 
+• Serious injuries: At least one of the 
+following applies to any persons 
+involved as a result of the event: 
+o Hospitalization for more than 
+48 hours, commencing within 7 days 
+from the date of the event; 
+o A fracture of any bone (except simple 
+fractures of fingers, toes, or nose); 
+o Severe hemorrhages or nerve, 
+muscle, or tendon damage; 
+o Internal organ(s) are affected; or 
+o Second- or third-degree burns or any 
+burns affecting more than 5 percent of 
+the body surface. 
+Estimated property damage equal to or 
+exceeding $25,000 
+Substantial damage: Damage to any 
+involved vehicles, facilities, equipment, 
+rolling stock, or infrastructure that disrupts 
+the operations of the rail transit agency and 
+adversely affects the structural strength, 
+performance, or operating characteristics of 
+the asset, such that it requires towing, 
+rescue, on-site maintenance, or immediate 
+removal prior to safe operation. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 17 
+Non-Rail and Ferry Modes Rail Modes 
+Collisions that: 
+• Meet an injury, fatality, property 
+damage, or evacuation threshold; 
+• Involve a transit revenue vehicle 
+and the towing away of any 
+vehicles (transit or non-transit) 
+from the scene; 
+• Include suicides, attempted 
+suicides, assaults, or homicides 
+resulting in an injury or fatality that 
+involve contact with a transit 
+vehicle; or 
+• Include collisions that do not 
+involve a transit revenue vehicle 
+but meet a threshold. 
+Collisions that: 
+• Meet an injury, fatality, substantial 
+damage, or evacuation threshold; 
+• Include suicides, attempted suicides, 
+and assaults or homicides that involve 
+contact with a transit vehicle; 
+• Occur at a rail grade crossing or 
+intersection; 
+• Involve an individual; 
+• Involve a rail transit vehicle and a 
+second rail transit vehicle; or 
+• Include collisions that do not involve a 
+transit vehicle but meet a threshold. 
+Evacuations include: 
+• Evacuation of a transit facility or 
+vehicle for life-safety reasons.
+Evacuations include: 
+• Evacuation of a transit facility or vehicle 
+for life-safety reasons; or 
+• Evacuations to controlled rail right-of-
+way (excludes evacuation to a platform, 
+except for life safety). 
+o Both transit-directed evacuations and 
+self-evacuations that meet either of 
+the two criteria described. 
+(Not applicable) Derailments: Both mainline and yard 
+derailments and non-revenue vehicle 
+derailments.
+(Not applicable) Runaway Train: Events involving a moving 
+runaway train with or without the operator on 
+board. These include movement of a rail 
+transit vehicle on the mainline, yard, or shop 
+that is uncommanded, uncontrolled, or 
+unmanned due to an incapacitated, 
+sleeping, or absent operator, or the failure of 
+a rail transit vehicle’s electrical, mechanical, 
+or software system or subsystem. (Limited 
+to revenue vehicles.)
+
+2026 Safety and Security Policy Manual 
+18 – S&S-40 Major Event Report 
+A reportable event may involve a vehicle operated by a transit agency that is not providing 
+revenue service. Any event meeting the thresholds for a reportable event and involving a 
+transit revenue vehicle, regardless of whether that vehicle is in revenue service at the 
+time of the event, is reportable to the NTD . Examples of such events are highlighted in 
+Example 4 and Example 5. 
+Example 4: Events Reportable to the NTD 
+Scenario Solution 
+Scenario A: A patron riding the escalator 
+in a transit station trips and falls, 
+knocking over two other patrons. 
+Two patrons require immediate 
+transportation to receive medical 
+attention. The third patron refuses 
+medical attention, leaves the station, and 
+does not appear to have serious injuries. 
+Solution A: Reportable as a Major Safety 
+Event due to two or more injuries. 
+Scenario B: Two non-revenue rail 
+service vehicles collide in the yard. There 
+are no fatalities or injuries, nor is there 
+substantial property damage. 
+Solution B: Rail-to-rail collisions are 
+automatically reportable as a rail collision, 
+including collisions with rail maintenance 
+vehicles. 
+Scenario C: A rail maintenance vehicle 
+collides with a person in the yard. There 
+is one injury. 
+Solution C: This involves a non-revenue rail 
+vehicle collision and meets the injury 
+threshold. It is therefore reportable as a Rail 
+Transit Collision (include one Other vehicle). 
+Scenario D: Two rail workers are injured 
+in a manhole while providing 
+maintenance on rail infrastructure 
+beneath the street level. 
+Solution D: The workers were maintaining 
+transit property when injured, therefore the 
+event is reportable as an Other Safety 
+Event. 
+Scenario E: A person is pushed in front 
+of a train and is struck by the train and 
+injured. 
+Solution E: Since the event resulted in a 
+collision, the event is reportable as a 
+Collision, and you must select “Assault” on 
+the Injury form. If the same scenario had 
+resulted in a fatality, then you would choose 
+“Homicide” on the Fatality form. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 19 
+Scenario Solution 
+Scenario F: During pre-revenue testing 
+of a new streetcar system in the 
+engineering or construction phases, a 
+streetcar collides with a pedestrian, 
+resulting in a fatality. 
+Solution F: Because this pre-revenue event 
+involved transit operations or transit-related 
+maintenance, the event would be reportable 
+to the NTD as a fatal rail collision. 
+Scenario G: The Information Technology 
+(IT) department at a rail transit agency 
+detected activity showing that there had 
+been unauthorized access to the transit 
+agency’s servers. As a result, ticketing 
+kiosks were down. Access to employee 
+email accounts was disrupted in addition 
+to employee access to agency 
+databases. 
+Solution G: Because the event impacted 
+the agency’s IT infrastructure (computer 
+systems) and resulted in a disruption of 
+transit agency operations, the substantial 
+damage threshold is met, and the event is 
+reportable as a Cyber Security Major Event. 
+Scenario H: An agency hosted the 
+annual Roadeo competition. During the 
+event, two of the individuals riding the 
+bus during the competition fell and 
+needed emergency medical services to 
+transfer to them to the hospital. 
+Solution H: Reportable as a Major Safety 
+Event due to the involvement of a transit 
+vehicle. 
+Note: S&S-40 reports are due no later than 30 days from the date of a reportable event. 
+By contrast, examples of events that are NOT reportable to the NTD are provided in 
+Example 5. 
+
+2026 Safety and Security Policy Manual 
+20 – S&S-40 Major Event Report 
+Example 5: Events Not Reportable to the NTD 
+Scenario Solution 
+Scenario A: A private vehicle swerves to 
+avoid a collision and hits a bus stop sign 
+and a bus bench, resulting in two injuries. 
+Solution A: Though there were injuries, 
+because the bus stop is located on a city 
+street and not on transit property, and the 
+event does not involve a transit vehicle, 
+the event would not be reportable to the 
+NTD. 
+Scenario B: A construction worker helping 
+to build a Light Rail extension falls from 
+scaffolding and is seriously injured. 
+Solution B: This event is related to the 
+extension of an existing rail system. 
+However, because the event is 
+construction-related and not related to 
+transit operations or transit-related 
+maintenance, the event would not be 
+reportable to the NTD. 
+Major Event Threshold Descriptions 
+Fatality 
+Agencies must always report events that result in fatalities. 
+Fatalities that occur because of illnesses , drug overdose s, or other natural causes 
+(including individuals who are found deceased) are not reportable. For example, if a 
+passenger suffers a fatal heart attack in a transit facility or vehicle, the event is not 
+reportable to the NTD. Deaths of undetermined cause in a rail right-of-way that may be 
+the result of collision or electrocution are reportable. 
+An agency must report a fatality due to a reportable S&S event if it is confirmed to have 
+occurred within 30 days of the event. If an agency receives confirmation that a death 
+occurred within 30 days of an event to a person initially reported as an injury, then you 
+may have to update the submitted major event report. 
+For information on Person Type categories, refer to Exhibit 23, “Injury and Fatality Type 
+Key Descriptions.” 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 21 
+Exhibit 6: Fatality Decision Flowchart 
+Injury 
+Injury means any harm to persons as a result of an event that requires immediate medical 
+attention away from the scene. It does not include harm resulting from a drug overdose, 
+exposure to the elements, illness, natural causes, or occupational safety events occurring 
+in administrative buildings. 
+You must report each person transported away from the scene for medical attention as 
+an injury, whether or not the person appears to be injured. If an individual seeks medical 
+care several hours after an event or in the days following an event, or if the person seeks 
+medical attention after leaving the scene on foot , these do not constitute immediate 
+medical transportation away from the scene. 
+This criterion requires that the individual receive medical attention at a location other than 
+the location at which the event occurred. This distinction serves to exclude minor first aid 
+or other minor medical assistance received at the scene. 
+For rail events, in addition to injuries requiring transport from the scene, injuries defined 
+as serious are automatically reportable. Individuals with serious injuries may or may not 
+have been transported away from the scene for medical attention. A serious injury is one 
+that meets any of the following criteria: 
+• Requires hospitalization for more than 48 hours within 7 days of the event; 
+• Results in a fracture of any bone (except simple fractures of fingers, toes, or nose); 
+• Causes severe hemorrhages, or nerve, muscle, or tendon damage; 
+• Involves an internal organ; or 
+
+2026 Safety and Security Policy Manual 
+22 – S&S-40 Major Event Report 
+• Involves second- or third-degree burns or any burns affecting more than 5 percent
+of the body surface.
+You must describe serious injuries in terms of one or more of these criteria in the Event 
+Description field (refer to the “Basic Information Form” section of this manual) whenever 
+possible. When a person receives immediate medical attention away from the event, that 
+individual may seek medical attention through any means of vehicular transport, including 
+by transit vehicle, an ambulance, an other emergency 
+ vehicle, priv ate vehicle, or via 
+stretcher t
+o the
+ hospital. 
+Not all events that result in immediate transport for medical attention are reported on the 
+major event report. One exception is for Other Safety Events, which are events that are 
+NOT collisions, fires, security events, hazardous 
+ material spills, acts of God, or 
+dera
+ilments.
+ These events include slips, trips, falls, smoke events, fumes, runaway trains 
+and electric shock. O nly report these events when they meet either the fatality, 
+evacuation, or prop
+erty damage threshold or result in two or more injured persons. Other 
+Safety Events that result in one p erson imme diately transported from the scene for 
+medical 
+atte
+ntio
+n but do not trigger any other major reporting thresholds are reported on 
+the Non-Major Summary Report. 
+Exclusions 
+Agencies do not report illnesse s that require transport awa y from the scene for medical 
+attenti
+on if the 
+illness is unrelated to an S&S event. For example, a passenge r suffering 
+a seizure o r a heart atta ck 
+would not count a s an injury. However, a transit operator 
+suffering the same condition is included as an injury if the con dition occurred as a result 
+of a collision
+. For example, it a bus is involved in a collision, and a passenger has a heart 
+attack as a result, then that is a reportable injury. 
+Individuals who are transported away 
+from the scene for the following reasons are not 
+reportable: 
+• Solely for: illness, natural causes, exposure to the elements, intoxication , drug
+overdose, or mental health evaluation unrelated to a specific reportable event; or
+• Declarations or allegations of self-harm with no evident injury.
+Please refer to the following examples. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 23 
+Example 6: Injuries 
+Scenario Solution 
+Scenario A: Transported by Ambulance 
+An ambulance transports an occupant of a 
+motor vehicle away from the scene of a 
+collision with a transit bus. 
+Solution A: The agency reports this as 
+a Major Event since one person required 
+immediate medical attention away from 
+the scene of the collision. 
+Scenario B: Transported by Alternate 
+Means 
+Three transit passengers are hurt in a 
+collision. Rather than wait for an ambulance 
+to arrive, a security guard drives them to a 
+nearby hospital. 
+Solution B: The agency reports this as 
+a Major Event since one or more people 
+required immediate medical attention 
+away from the scene of the collision. 
+Scenario C: Events Qualifying as a Serious 
+Injury 
+A person is struck by a train and leaves the 
+station. That evening the person seeks 
+medical attention and is hospitalized for 
+5 days due to an internal injury. The person 
+notifies the transit agency. 
+Solution C: The agency reports this as 
+a Major Event since it meets the 
+definition of a serious injury due to a rail 
+collision. The injury is serious because it 
+requires hospitalization for more than 
+48 hours within 7 days of the event. The 
+same scenario resulting from a collision 
+with a bus would not be reportable. 
+Scenario D: Transported for Trauma 
+Resulting from Event 
+A train strikes a pedestrian resulting in an 
+injury or fatality and the operator is 
+transported for trauma. 
+Solution D: The collision is a reportable 
+event, and the operator suffered harm 
+meeting the definition of an injury. The 
+operator injury would be included in the 
+collision report in addition to the 
+pedestrian injury or fatality. 
+Scenario E: Transported for Mental Health 
+Without an Associated Event 
+A person acting erratically on a station 
+platform, who could injure themselves by 
+their behavior, is transported for a mental 
+health evaluation. 
+Solution E: There is no reportable event 
+or injury, and this is therefore not 
+reportable. 
+Scenario F: Event Not Qualifying as a 
+Reportable Major Event 
+A bus operator requests that a passenger 
+pay the fare. The passenger refuses and 
+spits on the operator. The operator denies 
+transport for medical attention and resumes 
+service. 
+Solution F: The bus operator was not 
+transported for medical attention away 
+from the scene, so the event is not 
+reported on the S&S-40. However, the 
+assault on a transit worker is reported on 
+the S&S-50 Monthly Summary form. 
+
+2026 Safety and Security Policy Manual 
+24 – S&S-40 Major Event Report 
+Exhibit 7: Injury Decision Flowchart 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 25 
+Property Damage 
+Non-rail modes: Transit agencies must provide data on the S&S-40 for events resulting 
+in estimated property damage equal to or exceeding $25,000, regardless of injuries or 
+other thresholds. Estimated damage includes not only damage to transit property but also 
+the cost of clearing wreckag e and damage to all other vehicles and property involved in 
+or affected by the event. 
+Note: While the damage threshold for a major event is $25,000, any damage incurred 
+must be included for any reportable event. 
+FTA allows agencies to report property damage estimates. When reporting property 
+damage, an agency may decide to perform the following: 
+• Establish standard property damage totals for specific event types, 
+• Estimate the value of each event on a case-by-case basis, 
+• Use the amount paid to repair or replace property, or 
+• Use estimates made for insurance purposes. 
+Rail modes: Transit agencies must provide data on the S&S -40 for events resulting in 
+substantial damage, regardless of injuries or other thresholds. Substantial damage is 
+damage to any involved vehicles, facilities, equipment, rolling stock, or infrastructure that: 
+• Disrupts the operations of the rail transit agency, AND 
+• Adversely affects the structural strength, performance, or operating characteristics 
+of the vehicle, facility, equipment, rolling stock, or infrastructure, such that it 
+requires towing, rescue, on -site maintenance, or immediate removal prior to safe 
+operation. 
+Substantial damage excludes damage that is limited to: 
+• Cracked windows; 
+• Dents, bends, or small puncture holes in the body; 
+• Broken lights or mirrors; or 
+• Removal from service under the vehicle’s own power for minor repair or 
+maintenance, testing, or video and event recorder download. 
+When an agency selects “Substantial damage” to either “To transit property only” or “To 
+both transit and non -transit property,” a new subsection stating “Did the event result in 
+Disabling damage to a rail transit vehicle ” will appear. The definition of “Disabling 
+
+2026 Safety and Security Policy Manual 
+26 – S&S-40 Major Event Report 
+Damage” is “damage to a rail transit vehicle resulting from a collision and preventing the 
+vehicle from operating under its own power.” 
+Non-rail mode forms that include the phrase “Was this vehicle towed from the scene due 
+to disabling damage as a result of the collision?” have been revised to “Was this vehicle 
+towed from the scene due to damage as a result of the collision?” to avoid confusion with 
+the new rail mode disabling damage concept. 
+Agencies should evaluate the following types of property when assessing and reporting 
+damage: 
+• Vehicles, including transit and non-transit; 
+• Transit stations (including non-transit facilities); 
+• Right-of-way and items surrounding the right-of-way, such as utility poles; 
+• Bus stop shelters in a transit station; 
+• Private property (e.g., buildings, fences, traffic signals, walls); and 
+• Bicycles and personal mobility devices. 
+The value of total property damage includes the cost to clear the scene and restore 
+service. This includes towing costs and other costs to clear wreckage and debris. 
+Agencies must not include the following when reporting damage: 
+• The cost of medical attention (hospital or doctor fees); 
+• The cost of an accident investigation or criminal investigation; and 
+• Damage to personal property, such as the value of personal laptops, personal cell 
+phones, or other personal items. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 27 
+Example 7: Calculating Property Damage 
+Scenario Solution 
+Scenario A: A Bus Collides with a Private 
+Car 
+The car is totaled, and the bus incurred 
+body damage. The car has an estimated 
+value of $15,000 (the transit agency uses 
+the car’s Kelley Blue Book value or 
+another reasonable source to estimate the 
+present value). The cost of the bus body 
+damage is estimated at $12,000. 
+Solution A: The agency reports property 
+damage of $27,000 ($15,000 + $12,000). 
+Scenario B: A Collision Requires a 
+Rescue Train 
+A rail vehicle is disabled when it collides 
+with an object on the track, and a rescue 
+train is dispatched to transport the 
+passengers. 
+Solution B: The agency reports 
+“Substantial damage” since the event 
+required a rescue train. 
+Scenario C: A Collision Requires Tow-
+Away of a Private Vehicle 
+A rail vehicle collides with a private vehicle 
+and the private vehicle is damaged and 
+towed away from the scene. 
+Solution C: The agency reports 
+“Substantial damage” since the event 
+required towing a vehicle. 
+Exhibit 8: Non-Rail Property Damage Decision Flowchart 
+
+2026 Safety and Security Policy Manual 
+28 – S&S-40 Major Event Report 
+Evacuation 
+A reportable evacuation is a condition that occurs when persons depart from transit 
+vehicles or facilities for life -safety reasons. A life safety reason is a situation, such as a 
+fire, the presence of smoke or noxious fumes, a fuel leak, a vehicle fuel leak, an electrical 
+hazard, a bomb threat, a suspicious item, or other hazard, that constitutes a real or 
+imminent danger to any person. 
+Hazard means any real or potential condition that can cause injury, illness, or death; 
+damage to or loss of the facilities, equipment, rolling stock, or infrastructure of a public 
+transportation system; or damage to the environment. 
+In addition, rail modes must report all evacuations to controlled rail right-of-way. 
+Evacuations to the right-of-way refer to rail mode only. For example, if a bus breaks down 
+during service, and passengers must evacuate to the sidewalk or highway shoulder lane, 
+the agency will not report the event unless another threshold is met. 
+Causes of evacuation s that constitute an imminent danger (life-safety) to passengers, 
+employees, contractors, or other persons may include the following: 
+• Fires, 
+• Presence of smoke or noxious fumes, 
+• Hazardous material spills, 
+• Vehicle fuel leaks, 
+• Weapon fired on a vehicle, 
+• Electrical hazards, 
+• Bomb threats, 
+• Suspicious items, 
+• Security, 
+• Power failure (if there is imminent danger to passengers), 
+• Mechanical failure (if there is imminent danger to passengers), or 
+• Other events (Other Safety Events). 
+Evacuations of vehicles or facilities are reportable even if the event is off property . For 
+example, if there is a called-in bomb threat, gas leak, or fire on adjacent property that 
+causes an agency to evacuate a nearby station , then the agency must report the 
+evacuation. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 29 
+Self-evacuations, which occur when people vacate transit property without direction from 
+transit personnel or another authority, are not automatically reportable. 
+Transit agencies should not report evacuations due to a mechanical failure unless the 
+evacuation occurs onto the right-of-way. Evacuations to a station platform or a rescue 
+train are not reported unless there was an imminent danger to passengers. 
+Note: The removal of an injured person from a vehicle does not qualify as an evacuation. 
+Exhibit 9: Evacuation Decision Flowchart 
+Derailment 
+Agencies must report any derailment of a rail transit revenue vehicle or of a non-revenue 
+service vehicle. This includes both mainline and yard derailments. 
+If a derailment is a result of a collision, report the event as a collision and include the 
+number of derailed vehicles on the “Rail Transit Train Involved” form . This form is used 
+even if the vehicle was a maintenance vehicle, such as a hi-rail vehicle.) 
+Excluded from this event reporting requirement are events that occur during the 
+engineering or construction phases of a new rail transit system or the extension of an 
+existing rail transit system unless they involve transit-related activities such as operations, 
+testing, simulated service or pre -revenue service, or a transit -related maintenance 
+activity. 
+
+2026 Safety and Security Policy Manual 
+30 – S&S-40 Major Event Report 
+Exhibit 10: Derailment Decision Flowchart 
+Collisions Involving Tow-Aways 
+Agencies must report all collisions involving revenue roadway vehicles in which one or 
+more motor vehicles sustained damage that required the vehicle(s) to be towed away 
+from the scene by a tow truck or other motor vehicle. This includes both transit and 
+non-transit vehicles, regardless of the severity of the damage. 
+Note: This threshold refers to towing away a motor vehicle only and excludes the towing 
+away of rail cars or ferry boats. Further, please note that the relative forms have removed 
+the term “disabling” from the question “Did this event result in a tow-away due to disabling 
+damage?” and therefore now reads “Did this event result in a tow-away due to damage? 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 31 
+Example 8: Collisions Involving Tow-Away 
+Scenario Solution 
+Scenario A: Car Towed Away Due to a 
+Flat Tire 
+A transit bus and an automobile collide, 
+and the automobile must be towed away 
+due to a flat tire. There are no injuries 
+and property damage is under $25,000. 
+Solution A: Report this as a collision 
+event since the automobile was towed 
+away from the scene. 
+Scenario B: A Truck Towed Away After 
+a Collision With a Light-Rail Vehicle 
+A light rail vehicle and a truck collide in 
+mixed traffic (not at an intersection), and 
+the truck must be towed. There are no 
+injuries. 
+Solution B: Report this as a collision 
+event. The truck was towed away 
+therefore the event meets the substantial 
+damage threshold criterion. 
+Automatically Reportable Rail Collisions 
+Certain instances of rail collisions are automatically reportable, regardless of whether they 
+meet other reporting thresholds. 
+Rail Grade Crossing or Intersection Collisions 
+Agencies must report any collision involving a rail transit vehicle occurring at a grade 
+crossing or intersection. A grade crossing is defined as any place where a rail guideway 
+used for transit operations is crossed at grade by a road or path, including crosswalks at 
+stations. However, this excludes parking lot entrances or exits and driveways. You must 
+report r ail grade crossing collisions whether or not they meet any other reporting 
+threshold. 
+Rail Collisions with an Individual 
+Agencies must report any collision between a rail transit vehicle and an individual, 
+regardless of whether the event resulted in injuries. For a collision to occur, t he transit 
+vehicle must be in motion. Impact between a stopped transit vehicle and a person are 
+reported as a fall on the Non-Major Monthly Summary form. 
+Rail Collisions with Another Rail Vehicle 
+Agencies must report any collision between a rail transit vehicle and a second rail vehicle. 
+Rail-to-rail collisions are reportable whether or not they meet any other reporting 
+
+2026 Safety and Security Policy Manual 
+32 – S&S-40 Major Event Report 
+threshold. This includes all collisions between a transit revenue train and another revenue 
+train, a revenue train and a non-revenue rail service vehicle, or between two non-revenue 
+rail service vehicles. Rail transit vehicles exclude hand-powered devices that are not part 
+of a vehicle consist. 
+Report one “Transit vehicle involved” for each revenue train and one “Other vehicle 
+involved” for each non -revenue vehicle (maintenance/service) vehicle. Note: Collisions 
+that do not involve any rail transit vehicles but involve equipment and meet a reporting 
+threshold are reported as “Non-Transit Collisions.” 
+Runaway Trains 
+Any event that involves a runaway train is reportable regardless of any other threshold. A 
+runaway train is a train that is moving and no longer under the control of a driver (whether 
+or not the operator is physically on the vehicle at the time). This is limited to rail vehicles 
+that are used for revenue service , regardless of whether the event occurred in revenue 
+service. 
+You should report a runaway train event under the event type that occurred as a result of 
+the runaway train (a Collision, Derailment , or Other Safety Event ). A runaway rail 
+service/maintenance vehicle that does not result in a safety event that meets reporting 
+thresholds does not need to be reported. 
+Example 9: Runaway Train 
+Scenario Solution 
+Scenario A: Revenue Train Has an 
+Undesired Uncoupling With Movement 
+A revenue train consist has an undesired 
+uncoupling at a station and pulls away 
+leaving the uncoupled car behind. The 
+car brakes do not set as designed, and 
+the car starts rolling. 
+Solution A: Report as a “Other Safety 
+Event” (Runaway Train) because the car 
+is moving uncontrolled. 
+Scenario B: Revenue Train Has an 
+Undesired Uncoupling Without Movement 
+A revenue train consist has an undesired 
+uncoupling at a station and pulls away 
+leaving the uncoupled car behind. The 
+car brakes set as designed and the car 
+remains stationary. 
+Solution B: Do not report this as a 
+“Runaway Train” because the car is not 
+moving uncontrolled. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 33 
+Event Types 
+Exhibit 11 provides an overview of reportable event types for events meeting a reporting 
+threshold. 
+Exhibit 11: Event Types 
+Event Type Description 
+Safety Events • Collisions (including those involving attempted suicide, 
+suicide, and assault/homicide), 
+• Fires (suppression), 
+• Derailments (mainline and yard) including non-revenue 
+vehicles, 
+• Hazardous Material Spills, 
+• Acts of God, and 
+• Other Safety Events (events that do not fall into any of the 
+other categories, yet meet a reporting threshold other than 
+immediate transport for medical attention for one person). 
+System Security 
+Events 
+• Bomb Threat/Bombing, 
+• Chemical/Biological/Radiological/Nuclear Release, 
+• Arson, 
+• Sabotage, 
+• Burglary, 
+• Vandalism, 
+• Hijacking, 
+• Cyber Security Events, 
+• Suspicious Package, and 
+• Other System Security Events (such as projectiles thrown at 
+vehicles). 
+
+2026 Safety and Security Policy Manual 
+34 – S&S-40 Major Event Report 
+Event Type Description 
+Personal 
+Security Events 
+• Assault (including Assault on a Transit Worker), 
+• Attempted Suicide, 
+• Suicide, 
+• Homicide, 
+• Motor Vehicle Theft, 
+• Robbery, 
+• Rape, 
+• Larceny/Theft, and 
+• Other Personal Security Events. 
+For multiple events that occur at the same time and place, please report the event type 
+under the event that occurred first. Additional information may be found in the “Security 
+Events” section. Exceptions to this includes assault or homicide (individual pushed in front 
+of a transit vehicle in motion ), and suicide or attempted suicide by impact with a transit 
+vehicle are reported as collisions. 
+Collisions 
+A collision is a vehicle or vessel accident in which there is an impact of a transit vehicle 
+or vessel with another vehicle or object, such as (but not limited to) the following: 
+• Another transit vehicle, 
+• A non-transit vehicle, 
+• A person, 
+• An animal, 
+• An object, 
+• A rail vehicle, 
+• A vessel, or 
+• A dock. 
+A reportable non-rail collision is one that results in the following: 
+• An injury requiring transport away from the scene, 
+• A fatality, 
+• An evacuation for life-safety reasons, 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 35 
+• Property damage of $25,000 or more, or 
+• Towing of the transit or non-transit vehicle. 
+Exhibit 12: Non-Rail Collision Decision Flowchart 
+A reportable rail collision is one that: 
+• Results in an injury requiring transport away from the scene, 
+• Results in a serious injury, 
+• Results in a fatality, 
+• Results in an evacuation for life-safety reasons or to the rail right-of-way, 
+• Results in substantial damage, 
+• Results in a runaway train, 
+• Occurs at a grade crossing or intersection, or 
+• Involves a collision with a person or another rail vehicle. 
+
+2026 Safety and Security Policy Manual 
+36 – S&S-40 Major Event Report 
+Exhibit 13: Rail Collision Decision Flowchart 
+Collisions Involving Suicide, Attempted Suicide, Assault (Injury), or Homicide 
+(Fatality) 
+Suicides, attempted suicides , assaults (including assaults on transit workers) , and 
+homicides by impact with a transit vehicle are reported as collisions. 
+An attempted suicide is self-inflicted harm where death does not occur, but the intention 
+of the person was to cause a fatal outcome. The intent can be determined by any 
+reasonable method including police reports and eyewitness accounts. The event 
+description must clearly state how the person inflicted self -harm and that the intent was 
+suicidal. 
+Only record a collision with an individual as a suicide or attempted suicide if the intent is 
+established by a third party in the form of police reports, security personnel reports, or 
+other eyewitness statements. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 37 
+Exhibit 14: Suicide or Attempted Suicide Decision Flowchart 
+An assault is an attack by one person on another without lawful authority or permission. 
+A homicide is the killing of one human being by another, including the following: 
+• Murder and non -negligent manslaughter : The willful (non -negligent) killing of 
+one human being by another. 
+• Negligent manslaughter: The killing of another person through gross negligence. 
+Reporting Collisions 
+Non-transit vehicle collisions on or involving transit property that do not involve transit 
+revenue vehicles may still meet reporting thresholds. For example: 
+• A pedestrian is struck by a private vehicle in a transit parking lot. 
+• Maintenance equipment collides with anything except a rail transit vehicle away 
+from the rail right-of-way. 
+Agencies can enter n on-transit collisions by selecting “No” to either the question “Were 
+transit revenue vehicles involved in this event?” or the question “Were Transit Revenue 
+Vehicles OR Non -revenue Rail Transit Vehicles involved in this event? ” on Set up 
+Screen 2. 
+
+2026 Safety and Security Policy Manual 
+38 – S&S-40 Major Event Report 
+Example 10: Non-Reportable Collision 
+Scenario Solution 
+Scenario A: Non-Transit Collision 
+Two patrons are sitting on a bench 
+waiting for a bus at a simple bus stop 
+owned by the transit agency. A car loses 
+control and crashes into the bench, killing 
+both patrons. 
+Solution A: Events occurring at simple 
+bus stops are not reportable to the NTD, 
+unless the patron is boarding or alighting 
+from the transit vehicle. These events are 
+not reportable even if the transit agency 
+owns the bus stop. 
+Scenario B: Transit Collision 
+A passenger exiting a bus is hit by a car. 
+A passenger exits a transit bus, crosses 
+the street in front of the bus, and is struck 
+and killed by a passing motor vehicle. 
+Solution B: This event is not reportable 
+because the transit passenger was 
+outside of the transit system/property. 
+Collision forms vary depending on mode . Typically, the following four screens are 
+available to select from when reporting a transit collision, excluding the Basic Information, 
+Injury, or Fatality forms: 
+• Collision Event Information, 
+• Collision Information, 
+• Transit Vehicle Involved Information, and 
+• Other Vehicle Involved Information. 
+The following sections provide instructions for completing the required form by event type 
+and includes key descriptions pertaining to the information collected on the forms. For 
+injury or fatality descriptions, please refer to Exhibit 23, “Injury and Fatality Type Key 
+Descriptions.” For the purpose of this manual, t he following selections are multimodal, 
+whereas the database selections are based on mode. 
+Please note: Some of these selections only appear on forms for specific modes. 
+For example, “Bus or Service Stop” will not appear for rail modes. 
+Basic Information Form 
+The Basic Information screen is used for each event type. The Suicide and Attempted 
+Suicide selections appear only for Collisions. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 39 
+Exhibit 15: Basic Information Screen Key Descriptions 
+Item Basic Information Screen Key Description 
+Event Date The actual date the event occurred 
+Event Time The actual time the event occurred 
+Approximate The actual address, or, if unknown, the approximate address, 
+Address of nearest intersection, or milepost where the event occurred 
+Event 
+Latitude Choose either “Search by Latitude & Longitude” or “Search by 
+Address” 
+Longitude Choose either: “Search by Latitude & Longitude” or “Search by 
+Address” 
+Suicide Check box that applies: 
+Checkboxes • Attempted Suicide Event: Collision is due to an attempted 
+suicide (non-fatal). 
+• Suicide Event: Collision is a suicide (fatal). 
+Event A clear, concise account of the event that includes the following 
+Description information: 
+• What occurred (how and indicate impact points); 
+• When (verifies time of day); 
+• Where (intersection, parking lots, etc.); 
+• Who and how many people (those affected, including the 
+number transported for medical attention); 
+• A corroboration of reported damage; and 
+• Whether any vehicles were towed. 
+Collision Event Information Form 
+The Collision Event Information portion of the S&S-40 collects information on the location 
+of the collision (Exhibit 16), what the collision was with (Exhibit 17), the number of transit 
+vehicles involved, and additional details about the event (Exhibit 18). 
+ 
+
+2026 Safety and Security Policy Manual 
+40 – S&S-40 Major Event Report 
+When reporting Number of Non -Rail Transit Vehicles Involved , Number of Rail 
+Transit Trains Involved, or Number of Ferries Involved: 
+• Enter the number of transit revenue vehicles. 
+o If your a gency’s transit revenue vehicle collides with another agency’s 
+transit vehicle, DO NOT include the other agency’s transit vehicle here. 
+o If your agency’s transit revenue vehicle collides with one of your agency’s 
+hi-rail, work train, or maintenance vehicles, include only the revenue vehicle 
+here and include one Other vehicle to report the maintenance vehicle. 
+Exhibit 16: Collision Event Information Form Key Descriptions—Location 
+Selections 
+Location Selection Location Description 
+Revenue Facility: 
+Transit Center/ 
+Station or Terminal 
+A passenger boarding/deboarding facility with a platform, 
+which may include stairs, elevators, escalators, passenger 
+controls, canopies, wind shelters, ticket office or machines, 
+restrooms, or concessions. This includes the following: 
+• All fixed-guideway passenger facilities (except for on-
+street cable car and light rail stops); 
+• Busway passenger facilities; 
+• Underground, at grade, and elevated rail stations 
+• Ferryboat (FB) terminals; and 
+• Transportation/transit/transfer centers, park-and-ride 
+facilities, and transit malls with the listed components, 
+including those only used by buses. 
+Does not include stops (which are typically on-street locations 
+at the curb or in a median, sometimes with a shelter; signs; or 
+lighting for bus, light rail, and cable car). 
+Non-Revenue 
+Facility 
+A facility or an area that is not used to enable individuals to 
+board or alight from transit vehicles and that is primarily 
+staffed by transit workers. 
+Revenue Facility: 
+Other 
+Another location within the facility, such as a control room, 
+equipment room, or turnstile. May be used to indicate areas 
+around the facility that are on transit property. 
+Roadway: 
+Intersection 
+An intersection or crossroad usually involves a crossing over 
+of two streets or roads. The intersection may be a T-
+intersection or a multi-leg or traffic circle configuration. In 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 41 
+Location Selection Location Description 
+areas where there are blocks, the crossing streets or roads 
+are perpendicular to each other. However, two roads may 
+cross at a different angle. 
+Right-of-Way: 
+Intersection 
+An intersection or crossroad where street-running rail crosses 
+in mixed traffic. This excludes driveways and parking lot 
+entrances. 
+Roadway: Grade 
+Crossing or Right-
+of-Way: Grade 
+Crossing 
+An intersection where a roadway and a transit-exclusive rail 
+right-of-way cross each other at the same level (at grade). 
+Pedestrian crosswalks in stations are also included. This 
+excludes driveways and parking lot entrances. 
+Roadway: Not a 
+Grade Crossing or 
+Intersection or 
+Right-of-Way: Not a 
+Grade Crossing 
+A mid-block or location on the roadway or rail right-of-way that 
+is not at an intersection. Includes driveways, parking lot 
+entrances, ramps, bridges, and tunnels. 
+Bus or Service Stop 
+or Service stop 
+A pre-defined location for passengers to board and/or alight 
+from the transit vehicle, typically on-street, at the curb, or in a 
+median, sometimes with a shelter, sign, or lighting. Includes 
+private driveways for paratransit operations. 
+Revenue Facility: 
+Parking Facility 
+A facility that includes park-and-ride lots as well as parking 
+garages. Parking facilities are those immediately adjacent to a 
+transit station or center. 
+
+2026 Safety and Security Policy Manual 
+42 – S&S-40 Major Event Report 
+Exhibit 17: Collision Event Information Form Key Descriptions—Collision With 
+Selections 
+Collision With 
+Selections Key Description 
+Motor Vehicle or 
+Non-Transit Motor 
+Vehicle 
+A vehicle, such as an automobile, minivan, pickup truck, 
+motorcycle, electric stand-up scooter, motorized bicycle, rail 
+car, or bus, intended for roadway or rail travel. 
+• When you choose this selection, include one “Other 
+vehicle” for each motor vehicle or non-transit motor vehicle 
+involved. 
+Non-Rail Transit 
+Vehicle 
+A transit owned and operated vehicle that is not being used on 
+the rail fixed guideway): The non-rail vehicles used to provide 
+revenue service for passengers. 
+• When you choose this selection, include one “Other vehicle” 
+for each non-rail transit vehicle involved. 
+Rail Transit Vehicle/ 
+Rail Passenger 
+Train – Revenue 
+Service 
+The rolling stock used to provide revenue service for 
+passengers that is in service at the time of the event. 
+Rail Transit Vehicle/ 
+Rail Passenger 
+Train – Not in 
+Revenue Service 
+The rolling stock used to provide revenue service for 
+passengers that is not in service at the time of the event. 
+Rail Transit 
+Vehicle/Rail Transit 
+Maintenance or 
+Service Vehicle on 
+the Rail Fixed 
+Guideway 
+Vehicles used to indirectly deliver transit service, maintain 
+revenue vehicles, and perform transit-oriented administrative 
+activities. 
+• When you choose this selection, include one “Other vehicle” 
+for each rail transit maintenance or service vehicle involved. 
+• These vehicles are powered by an on-board operator to 
+distinguish them from rail equipment or hand powered or 
+remote-controlled objects. 
+Rail Vehicle Any rolling stock used on a rail fixed guideway public 
+transportation system, including but not limited to passenger 
+and maintenance vehicles. 
+Person Includes bicyclists on non-motorized bicycles and 
+skateboarders. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 43 
+Collision With 
+Selections Key Description 
+Animal — 
+Fixed Object — 
+Transit Vehicle • Report a collision with another of your agency’s rail vehicles 
+under the rail mode. 
+• Do not use this selection to identify a collision with a transit 
+vehicle from another agency. 
+Vessel — 
+Dock/Terminal 
+Center 
+— 
+Private Vehicle(s), 
+Private Vehicle With 
+a Person, Private 
+Vehicle With Fixed 
+Object, or Non-
+Revenue Vehicle 
+These selections are only available on the Non-Transit Collision 
+form. 
+— Not applicable. 
+Number of Other Vehicles Involved: 
+• The number of non-transit vehicles involved in the collision, including motorcycles, 
+scooters, tour/charter buses, or tractor-trailers. 
+o If a transit revenue vehicle collides with a hi -rail maintenance vehicle, 
+include “Other” vehicle to report the maintenance vehicle. 
+• Refer to the Example 11 to determine how to select “Collision With.”
+
+2026 Safety and Security Policy Manual 
+44 – S&S-40 Major Event Report 
+Example 11: Reporting “Collision With” 
+Scenario Solution 
+Scenario A: A demand response (DR) 
+vehicle hits a fire hydrant. As a result, the 
+operator and two passengers are injured 
+seriously enough to require immediate 
+transport to a nearby hospital. 
+Solution A: Select Fixed object from the 
+“Collision with” list. 
+Scenario B: A streetcar (SR) strikes a 
+bicyclist who is then transported to a 
+hospital due to injuries sustained in this 
+event. 
+Solution B: Select Person from the 
+“Collision with” list. 
+Exhibit 18: Collision Information Additional Details 
+Selection Additional Collision Information Key Description 
+Weather • Clear, 
+• Cloudy, 
+• Foggy/Misting, 
+• Raining, 
+• Snowing/Sleeting, 
+• Windy (FB mode), or 
+• Tunnel. 
+Lighting • Daylight; 
+• Twilight: The period of partial darkness between day and 
+night both at dusk and at dawn; 
+• Dark; 
+• Sun in eyes of transit vehicle operator; 
+• Sun in eyes of other vehicle operator; or 
+• Indoors: Indoor lighting; excludes streetlights. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 45 
+Selection Additional Collision Information Key Description 
+Roadway 
+Configuration 
+• Limited Access Highway: A controlled-access road to 
+which access from adjacent properties is limited in some 
+way. These highways usually do not permit low-speed 
+vehicles and non-motorized users, such as pedestrians, 
+bicycles, and horses. 
+• Divided Highway: A highway that is divided down the 
+middle by a barrier that separates traffic going in different 
+directions. 
+• Street, 
+• Bridge, 
+• Intersection, 
+• Grade crossing, 
+• Tunnel, 
+• Private Property, or 
+• Ramp. 
+Railway Alignment • Exclusive Right-of-way: Tunnel; 
+• Exclusive Right-of-way: Elevated track; 
+• Exclusive Right-of-way: At-grade; 
+• Exclusive Right-of-way: Sidings/rail yard/other non-revenue 
+track; 
+• Semi-exclusive right-of-way with grade crossings for 
+vehicular or pedestrian traffic; or 
+• Non-Exclusive Right-of-way: Shared with Vehicles or 
+Pedestrians: Rail right-of-way over which motor vehicle 
+and/or pedestrian traffic moving in the same direction or 
+cross directions may pass. 
+Grade Crossing 
+Control (If 
+Applicable) 
+• Active devices: Crossing gates; 
+• Active devices: Flashing lights only; 
+• Active devices: Traffic signal; 
+• Active devices: Quad gates; 
+• Active devices: Train approaching sign; 
+• Passive devices: Stop sign; 
+• Passive devices: Cross bucks; or 
+• No control device. 
+
+2026 Safety and Security Policy Manual 
+46 – S&S-40 Major Event Report 
+Selection Additional Collision Information Key Description 
+Intersection Control 
+Device (If Applicable) 
+Service Stop Control 
+Devices (if 
+applicable) 
+Roadway Conditions 
+• Traffic Signal;
+• Police Officer/Flagman/Other Person;
+• Stop Sign;
+• Yield Sign;
+• Crossing Gate;
+• Active devices: Crossing gates;
+• Active devices: Flashing lights only;
+• Active device: Traffic signal;
+• Active device: Train approaching sign;
+• Active device:
+ Restricted/no turn sign;
+• Passive device: Stop sign;
+• Passive: Yield sign;
+• Passive devices: Cross bucks;
+• Passive device: Restricted/no turn sign; or
+• No control device.
+• Active device: Traffic signal;
+• Active device: Restricted/no turn sign;
+• Passive: Yield to train;
+• Passive device: No passing zone;
+• Passive device: Stop sign;
+• Passive device: Restricted/no turn sign;
+• Passive 
+devices: Crossbucks;
+• Passive device: Rail transit only lane;
+• Passive device: Pavement markings;
+• Passive device: Do not pass; or
+• No control device.
+• Dry,
+• Wet,
+• Snow/Slush,
+• Ice, or
+• Debris.
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 47 
+Selection Additional Collision Information Key Description 
+Tide Condition (FB 
+mode) 
+• Low Tide, 
+• Slack Tide, 
+• High Tide, or 
+• Non-Tidal Waters. 
+Current Condition 
+(FB mode) 
+• Slow Current, 
+• Medium Current, 
+• Fast Current, or 
+• Flat Water (No Current). 
+Collision Transit/Trains Involved Form 
+To add transit vehicles involved, select either the “Existing Fleet” or “New Fleet” option to 
+identify the vehicles involved as follows: 
+• Existing Fleet (button): Select to display fleet vehicles based on the agency’s 
+latest available “Revenue Vehicle Inventory (A-30)” form for the mode and type of 
+service for the event. Make a selection from the list. You may filter the list of 
+selections through any of the following: 
+o RVI ID: Revenue Vehicle Inventory Identification number. 
+o Agency Fleet ID: Unique identifiers an agency may assign for each fleet in 
+their inventory. 
+o Vehicle Type: AG, AO, BR, BU, CC, CU, DB, FB, HR, LR, IP, MV, RL, RP, 
+RS, SB SV, TB, TR, VN, or VT. 
+o Manufacturer. 
+• New Fleet (button): Select if the vehicle associated with this event is not on the 
+Existing Fleet list. Enter the following information: 
+o Vehicle Type, 
+o Vehicle Manufacturer, and 
+o Vehicle Fuel Type. 
+
+2026 Safety and Security Policy Manual 
+48 – S&S-40 Major Event Report 
+Exhibit 19: Transit/Other Vehicle Actions 
+Item Transit and Other Vehicle Action Description 
+Making a Transit 
+Stop 
+A transit vehicle is slowing down to pull into a regularly 
+scheduled service stop where passengers board and alight from 
+transit vehicles. 
+Leaving a Transit 
+Stop 
+A transit vehicle is slowly pulling away from a regularly 
+scheduled service stop where passengers board and alight from 
+transit vehicles. 
+Stopped The vehicle has halted movement during operations, such as 
+standing in traffic or waiting at a service stop. 
+Other Available 
+Actions (listed for 
+completeness) 
+• Going straight, 
+• Negotiating a curve, 
+• Making a left turn, 
+• Making a right turn, 
+• Changing lanes, 
+• Going backwards, 
+• Parked, 
+• Proceeding through a switch, 
+• Entering dock, or 
+• Leaving dock. 
+Transit and Other Vehicle Collision Type: 
+To determine the collision type, base the selection from the point of view of your agency’s 
+vehicle (as if you were sitting in the vehicle). If the vehicle was impacted more than once 
+during the collision, always report the first impact point on the vehicle (refer to Exhibit 20). 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 49 
+Exhibit 20: Transit and Other Vehicle Collision Type Key Descriptions 
+Collision Type Transit and Other Vehicle Collision Type Key Descriptions 
+Head-On The vehicle was impacted on its front end, such as in a collision 
+when two vehicles are coming from opposite directions and 
+impact each other straight on the front, or a T-bone or 
+broadside collision, when one vehicle drives head-on into the 
+side of another vehicle. 
+Rear-Ending The vehicle was impacted on its front end when it rear-ended 
+another vehicle. (Refer to the note in “Rear-Ended” description 
+in the following row.) 
+Rear-Ended The vehicle was impacted on its rear end by the front of another 
+vehicle. 
+Note: “Rear-ending” and “Rear-ended” must always be reported 
+as a pair. If you select either choice here, the other choice must 
+be selected for the other vehicle listed in the report. 
+Side Impact The vehicle was impacted anywhere on one of its sides, 
+including being T-boned or broadsided or sustaining impact to a 
+side mirror or tires. 
+Other Front Impact The vehicle was impacted anywhere on its front end that would 
+not be described as head-on, such as the corner of the front 
+bumper. 
+Note: Do not use this selection if the vehicle was hit on the side 
+near the front. 
+Sideswipe The vehicle was not impacted in one place on a side but was 
+scraped along a length of one of its sides. 
+Note: Do not report collisions with pedestrians as sideswipes. 
+Roof/Top of Vehicle The vehicle was impacted on the top or roof of the vehicle. 
+Other Rear Impact The vehicle was impacted on the rear but not because of a 
+vehicle rear-ending the vehicle. For example, the vehicle 
+backed into the rear of the other vehicle. 
+Note: Do not use this selection if the vehicle was hit on the side 
+near the rear. 
+
+2026 Safety and Security Policy Manual 
+50 – S&S-40 Major Event Report 
+For Transit Vehicle Speed, enter the actual or estimated vehicle speed at the time of the 
+collision. 
+Choose “Yes” or “No” to the question: “Was a runaway train involved?” 
+• If “Yes,” the system will prompt you to choose whether or not the operator was in 
+the vehicle at the time. 
+• This refers to revenue trains only. 
+Choose “Yes” or “No” to the question: “Was this vehicle towed from the scene as a result 
+of the collision?” 
+Exhibit 21: Collision Impact Point Diagram 
+Example 12: Collision Type 
+Scenario Solution 
+Scenario A: A ferryboat strikes a dock 
+with the front of the boat. 
+Solution A: Select “Head-On” because 
+the event involved the front of the 
+ferryboat striking the dock. 
+Scenario B: A train is hit in the rear by 
+another train. 
+Solution B: Select “Rear-Ended” as the 
+Train Collision Type for the transit vehicle. 
+(The Other vehicle would be reported as 
+“Rear-ending.”) 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 51 
+Scenario Solution 
+Scenario C: A train backs up into a 
+vehicle behind it. 
+Solution C: Select Other Rear Impact as 
+the Train Collision Type for the transit 
+vehicle. 
+(The Other vehicle would be reported as 
+“Other Front Impact.”) 
+Collision Other Vehicle Involved Form 
+To determine the other vehicle involved, please select from the “Other Vehicle Type 
+selections” list in Exhibit 22. Refer to Exhibit 19, “Transit and Other Vehicle Actions,” and 
+Exhibit 20, “Transit and Other Vehicle Collision Type Key Descriptions,” and adjust the 
+point-of-view to that of the Other vehicle. 
+Exhibit 22: Collision Other Vehicle Involved Key Descriptions 
+Selection Key Description 
+Other Vehicle Type 
+Selections 
+Other Vehicle Type selections: 
+• Automobile, 
+• Light Truck or SUV, 
+• Motorcycle/Moped/Scooter (including motorized stand-up 
+scooters), 
+• Tractor Trailer, 
+• Rail Vehicle, 
+• Non-revenue Rail Vehicle (Maintenance), 
+• Commercial Rail or Amtrak, 
+• Charter/Tour Bus, or 
+• School Bus. 
+Injury and Fatality Type Form 
+This section of the form collects information on each injury or fatality in the event. 
+
+2026 Safety and Security Policy Manual 
+52 – S&S-40 Major Event Report 
+Exhibit 23: Injury and Fatality Type Key Descriptions 
+Selection Key Description 
+Injury Type • Non-Serious: Choose this selection if the person was 
+transported for medical attention.
+• Serious: Choose this selection if the person suffered 
+serious injury. (Refer to Exhibit 5 for the definition of a 
+serious injury; rail mode only.) 
+Personal 
+Information 
+• Person Waiting/Leaving from Transit: An individual who 
+is on transit property such as a platform, transit facility, or 
+transit parking facility. 
+• Transit Employee/Contractor: An individual who is 
+compensated by the transit agency.
+• Transit Vehicle Operator: An individual who is 
+compensated by the transit agency and whose function is to 
+operate the transit vehicle. Operators are reported under 
+two categories, “Inside vehicle” or “Outside vehicle.” 
+Choose “Outside vehicle" when the operator is going to or 
+from the transit vehicle. 
+• Other Worker (e.g., commercial worker, utilities worker, 
+etc.): An individual who is neither an employee of a transit 
+agency nor a purchased transportation provider and who is 
+providing specific services at a transit agency. 
+• Pedestrian: Bicyclist. 
+• Pedestrian crossing in crosswalk. 
+• Pedestrian crossing not in crosswalk. 
+• Pedestrian walking along road. 
+• Pedestrian Other: An individual lying, sitting, or found on 
+tracks. 
+• Transit Vehicle Rider: An individual who is on board, 
+boarding, or alighting from a revenue transit vehicle. This 
+includes an individual riding on top of a transit revenue 
+vehicle, riding between rail cars, and off-duty personnel. 
+• Other Transit Staff: An on-duty transit worker on board a 
+transit revenue vehicle who is not the operator. This 
+includes trainees, observers, and security personnel. 
+• Occupant of other vehicle. 
+• Other: An individual who does not fit any other category. 
+Often used when the actions of the person and/or affiliation 
+to the transit system are unknown. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 53 
+Selection Key Description 
+Checkboxes/Radio 
+Buttons (per 
+person) 
+• Trespasser: An individual in an area of transit property not 
+intended for public use (i.e., an unauthorized area). 
+o Select one option: “Trespasser,” “Not a trespasser,” or 
+“Insufficient information.” 
+▪ Do not check this box if the individual fell or was 
+pushed into or onto an unauthorized area. 
+▪ Select “Insufficient information” only if there is no 
+evidence to conclude that the individual fell or 
+intentionally placed themselves in/on the 
+unauthorized location. 
+• Attempted Suicide: Self-inflicted harm where death does 
+not occur, but the intention of the individual was to cause a 
+fatal outcome.
+o Select one option: “No Assault/Attempted suicide,” 
+“Assault,” or “Attempted suicide.” 
+• Assault: An attack by one individual on another without 
+lawful authority or permission. 
+o Select one option: “No Assault/Attempted suicide,” 
+“Assault,” or “Attempted suicide.” 
+• Suicide or Homicide (refer to Exhibit 34, “Personal 
+Security Event Details Key Descriptions—Security Event 
+Types”): 
+o Select one option: “No Suicide/Homicide,” “Suicide,” or 
+“Homicide.” 
+• Transported for medical attention: This is used to 
+indicate that the individual was transported for medical 
+attention (required if “Non-Serious” is chosen). 
+
+2026 Safety and Security Policy Manual 
+54 – S&S-40 Major Event Report 
+Evacuation (Sub-Form) 
+Complete this form when reporting an evacuation for life-safety reasons or to the rail right-
+of-way. This sub-form may be included in any event type. 
+Choose “Yes” or “No” to the question: 
+• “Did this event involve an evacuation of a transit facility or vehicle due to potentially 
+unsafe conditions?” or 
+• “Did this event involve an evacuation of a transit facility or vehicle due to potentially 
+unsafe conditions or an evacuation to the rail right-of-way?” 
+Evacuation Details: Enter a description of the evacuation. 
+When selecting what your agency evacuated, choose from the following options: 
+• Vehicle/Vessel, 
+• Revenue Facility: transit station/center or terminal, 
+• Revenue Facility: other, or 
+• Non-revenue Facility. 
+Choose “Yes” or “No” to the question: “Was this a self-evacuation?” 
+Derailments 
+A derailment is a non -collision event that occurs when a train or other rail vehicle 
+unintentionally comes off its rail, causing it to no longer be properly guided on the railway. 
+All derailments of trains in revenue or non -revenue service, including maintenance 
+vehicles, should be reported, whether or not a threshold was met. This includes 
+derailments that result from a runaway train. 
+This includes: 
+• Derailments on both mainline track and in rail yards. 
+• Derailments where the wheel(s) leave and return to the rail. 
+• Derailment of any rail transit vehicle (in revenue service or otherwise) that is part 
+of a consist being pushed or pulled by powered track equipment. 
+This excludes: 
+• A split switch where the wheels of a rail transit vehicle did not come off the rails. 
+• Hand powered rail-running equipment such as a non-self-propelled hand cart. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 55 
+Events that occur during the engineering or construction phases of a new rail transit 
+system or the extension of an existing rail transit system , unless they involve transit-
+related activities such as operations, testing, simulated service or pre-revenue service, or 
+a transit-related maintenance activity. 
+Agencies must report derailments in the following three sections: 
+• Derailment Event Information includes the type of derailment, number of trains 
+derailed, the location of the derailment, and the type of track on which the 
+derailment occurred. 
+• Derailment Rail Transit Train Involved captures the total number of cars in the 
+train, the number of those cars that derailed, the vehicle action, the estimated 
+speed of the train at the time of the derailment, the vehicle manufacturer. This form 
+is also used for a non-revenue or maintenance vehicle. 
+• Derailment Information includes the weather, lighting , and right-of-way 
+conditions at the time of the derailment and the rail alignment of the track on which 
+the derailment occurred. 
+Derailment Event Information Form 
+Choose “Yes” or “No” to the question: “Was a runaway train involved?” 
+• If “Yes,” you will be prompted to choose whether or not the operator was in the 
+vehicle at the time. 
+• This question refers to rail vehicles that are used for revenue service only 
+(regardless of whether the event occurred in revenue service). 
+Please refer to the appropriate category within the “Collisions” section of this manual for 
+information on derailment selections. 
+
+2026 Safety and Security Policy Manual 
+56 – S&S-40 Major Event Report 
+Exhibit 24: Derailment Event Information Key Descriptions 
+Item Key Description 
+Derailment 
+Type Selections 
+• Mainline: Derailment occurs on primary rail over which rail 
+transit vehicles travel between stations. 
+• Yard: Derailment occurs on yard or side track. 
+Location 
+Selections 
+• Revenue facility: transit station: A passenger 
+boarding/deboarding from a facility with a platform, which may 
+include stairs, elevators, escalators, passenger controls, 
+canopies, wind shelters, ticket office or machines, restrooms, 
+or concessions. This Includes the following: 
+o All fixed guideway passenger facilities (except for on-street 
+cable car and light rail stops); 
+o Busway passenger facilities; 
+o Underground, at grade, and elevated rail stations; 
+o Ferryboat terminals; 
+o Transportation, transit, or transfer centers; 
+o Park-and-ride facilities; and 
+o Transit malls with the listed components, including those only 
+used by buses. 
+• Non-Revenue Facility: A facility or an area that is not used to 
+enable individuals to board or alight from transit vehicles and 
+that is primarily staffed by transit employees. 
+• Right-of-way: Trackway: Mid-block or locations on the rail 
+right-of-way that are not at intersections. Includes driveways, 
+parking lot entrances, ramps, bridges, and tunnels. 
+• Right-of-way: Grade Crossing: An intersection of a roadway 
+and a rail right-of-way where they cross each other at the same 
+level (at grade). This includes pedestrian crosswalks in 
+stations. 
+Configuration 
+Selections 
+• Switch, 
+• Curve, or 
+• Tangent. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 57 
+Example 13: Derailment Reporting 
+Scenario Solution 
+Scenario A: A construction company is 
+using a hi-rail vehicle to hang catenary 
+wires for a new Light Rail system. During 
+construction, the hi-rail vehicle derails.
+Solution A: The event occurred during the 
+construction phase of a new rail system, 
+and the vehicle use is made by 
+construction contractors and is not related 
+to operations or maintenance conducted 
+by the transit agency or by transit agency 
+operations or maintenance contractors. In 
+addition, the vehicle is not under control of 
+the transit agency. The event is not 
+reportable. 
+Scenario B: A work train moving in the 
+rail yard is pushing another train and one 
+wheel left but then returned to the rail. 
+Solution B: The event involved a 
+non-revenue rail vehicle and a wheel 
+derailed. This meets the derailment 
+threshold even though the wheel rerailed 
+on its own. 
+For Key Descriptions for completing the “Derailment Event Details ” form, refer to the 
+“Collision Information Key Descriptions” section within the form’s “Collisions” section. 
+
+2026 Safety and Security Policy Manual 
+58 – S&S-40 Major Event Report 
+Exhibit 25: Derailment Rail Transit Involved Key Descriptions 
+Item Key Description 
+Number of Cars in 
+Rail Transit Train 
+Selection 
+Enter the number of rail cars in the train’s consist. 
+Number of Cars 
+Derailed Selection 
+Enter the number of rail cars in the train’s consist that had a 
+wheel unintentionally come off the rail. 
+Existing Fleet 
+(button) 
+Select to display fleet vehicles based on the agency’s latest 
+available “Revenue Vehicle Inventory (A-30)” form for the mode 
+and type of service for the event. Make a selection from the list. 
+You may filter the list of selections through any of the following: 
+• RVI ID: Revenue Vehicle Inventory Identification number. 
+• Agency Fleet ID: Unique identifiers an agency may assign 
+for each fleet in their inventory. 
+• Vehicle Type: AO, BR, BU, CC, CU, DB, FB, HR, LR, IP, 
+MG, MV, RL, RP, RS, SB, SV, TB, TR, VN, or VT. 
+• Manufacturer. 
+New Fleet (button) Select if the vehicle associated with this event is not on the 
+Existing Fleet list. Enter the following information: 
+• Vehicle Type: 
+o For non-revenue maintenance vehicles, report the 
+Vehicle type as “Non-revenue Rail Vehicle 
+(maintenance).” 
+• Vehicle Manufacturer. 
+Vehicle Fuel Type 
+Train Action 
+Selections 
+• Going straight, 
+• Making a transit stop, 
+• Leaving a transit stop, 
+• Negotiating a curve, 
+• Proceeding through a switch, or 
+• Parked. 
+Choose “Yes” or “No” to the question: “Was a runaway train 
+involved?” 
+If “Yes,” you will be prompted to choose whether or not the 
+operator was in the vehicle at the time. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 59 
+Fires 
+For a fire event to be reportable to the NTD, it must be suppressed in some manner and 
+must meet a reportable event threshol d based on rail or non-rail reporting thre sholds. 
+These thresholds are: injury requiring transport away from the scene for medical atte ntion, 
+serious injury (rail mode), fatality, property damag e of $25,000 or more, substantial 
+damage (rail mode
+), or evacuation for life-safety reasons or to the rail right-of -way (rail 
+mode). Arson does not qualify as a fire event and should be reported as a security event. 
+If a fire is suppressed, but the event does not meet a reporting threshold, an agency would 
+report that occurrence 
+on a Non-Major Monthly Summary Report, not as a major event. 
+Do not report an event that involves only the presence of smoke and no fire suppression 
+as a fire. If a smoke event involved an evacuation for life-safety reasons, report it as a 
+major event under the category Other Safety Events. 
+Agencies must report the location of the fire, the fire type, whethe r the fire wa s on the 
+transit vehicle, and 
+the transit vehicle fuel type. 
+
+2026 Safety and Security Policy Manual 
+60 – S&S-40 Major Event Report 
+Exhibit 26: Fire Decision Flowchart 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 61 
+Exhibit 27: Rail Fire Event Details Key Descriptions 
+Selection Type Key Description 
+Location • In or on vehicle. 
+• Right-of-way: Outside Vehicle. 
+• Revenue Facility: Transit Center: A passenger 
+boarding/deboarding from a facility with a platform, which may 
+include stairs, elevators, escalators, passenger controls, 
+canopies, wind shelters, ticket office or machines, restrooms, or 
+concessions. This includes: 
+o All fixed guideway passenger facilities (except for on-street 
+cable car and light rail stops); 
+o Busway passenger facilities; 
+o Underground, at grade, and elevated rail stations; 
+o Ferryboat terminals; 
+o Transportation, transit, or transfer centers; 
+o Park-and-ride facilities; and 
+o Transit malls with the listed components, including those only 
+used by buses. 
+• Revenue Facility: Parking Facility: Includes park-and-ride lots 
+as well as parking garages. Parking facilities are those 
+immediately adjacent to a transit station or center. 
+• Revenue Facility: Other: Another location within the facility, 
+such as a station booth, control room, equipment room, or 
+turnstile. This may be used to indicate areas around the facility 
+that are on transit property. 
+• Non-Revenue Facility: A facility or an area that is not used to 
+enable individuals to board or alight from transit vehicles and 
+that is primarily staffed by transit workers. 
+Fire Type • Fuel, 
+• Cable, 
+• Battery, 
+• Smoking Materials (e.g., tobacco), 
+• Other Electrical, or 
+• Brake Component. 
+Fuel Type Choose the vehicle fuel type that powers the transit vehicle from 
+the list of choices. 
+
+2026 Safety and Security Policy Manual 
+62 – S&S-40 Major Event Report 
+Hazardous Material Spills 
+A hazardous material spill is the release of any amount of material that creates an 
+imminent danger to life, health, or the environment and requires special attention to clean 
+up the material. Leaks of oil, power steering fluid, or brake fluid from a transit vehicle are 
+not considered to be of sufficient quantity to cause an imminent danger to life, health, or 
+the environment. 
+A reportable event is one that results in an injury requiring transport away from the scene 
+for medical attention, serious injury (rail mode), fatality, property damage of $25,000 or 
+more, substantial damage (rail mode), or evacuation for life -safety reasons or to the rail 
+right-of-way (rail mode). 
+Agencies must report the location of the spill and the material type. 
+Exhibit 28: Hazardous Material Spill Decision Flowchart 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 63 
+Exhibit 29: Hazardous Material Spills Event Details Key Descriptions 
+Selection Type Key Description 
+Location • In vehicle. 
+• Revenue Facility: Transit Center/Station or Terminal: A 
+passenger boarding/deboarding from a facility with a platform, 
+which may include stairs, elevators, escalators, passenger 
+controls, canopies, wind shelters, a ticket office or machines, 
+restrooms, or concessions. This includes the following: 
+o All fixed guideway passenger facilities (except for on-street 
+cable car and light rail stops); 
+o Busway passenger facilities; 
+o Underground, at grade, and elevated rail stations; 
+o Ferryboat terminals; 
+o Transportation, transit, or transfer centers; 
+o Park-and-ride facilities; and 
+o Transit malls with the listed components, including those only 
+used by buses. 
+• Revenue Facility: Parking Facility: Includes park-and-ride lots 
+as well as parking garages. Parking facilities are those 
+immediately adjacent to a transit station or center. 
+• Revenue Facility: Other: Another location within the facility 
+such as a control room, equipment room, or turnstile area. May 
+be used to indicate areas around the facility that are on transit 
+property. 
+• Non-Revenue Facility: A facility or an area that is not used to 
+enable individuals to board or alight from transit vehicles, and 
+that is primarily staffed by transit employees. 
+Material • Choose the material that spilled from the list. 
+Acts of God 
+Acts of God are natural and unavoidable catastrophes that interrupt the expected course 
+of events, such as earthquakes, floods, hurricanes, tornados, other high winds, lightning, 
+snow, and ice storms. The form allows you to select more than one affected location. 
+A reportable event is one that results in an injury requiring transport away from the scene 
+for medical attention, serious injury (rail mode), fatality, property damage of $25,000 or 
+more, substantial damage (rail mode), or evacuation for life -safety reasons or to the rail 
+right-of-way (rail mode). 
+
+2026 Safety and Security Policy Manual 
+64 – S&S-40 Major Event Report 
+Exhibit 30: Acts of God Details Key Descriptions 
+Selection Type Key Description 
+Type • Earthquake, 
+• Flood, 
+• Hurricane, 
+• Tornado, 
+• Other High Winds, 
+• Lightning, 
+• Snow Strom, or 
+• Ice Storm. 
+Location of 
+Property 
+Damage, 
+Injuries, or 
+Fatalities 
+• In Vehicle/Vessel: Interior or exterior of the transit vehicle or 
+vessel. 
+• Revenue Facility: Transit Station/Center or Terminal: A 
+passenger boarding/deboarding from a facility with a platform, 
+which may include stairs, elevators, escalators, passenger 
+controls, canopies, wind shelters, a ticket office or machines, 
+restrooms, or concessions. This includes: 
+o All fixed guideway passenger facilities (except for on-street 
+cable car and light rail stops); 
+o Busway passenger facilities; 
+o Underground, at grade, and elevated rail stations; 
+o Ferryboat terminals; 
+o Transportation, transit, or transfer centers; 
+o Park-and-ride facilities; and 
+o Transit malls with the listed components, including those only 
+used by buses. 
+• Revenue Facility: Parking Facility: Includes park-and-ride lots 
+as well as parking garages. Parking facilities are those 
+immediately adjacent to a transit station or center. 
+• Revenue Facility: Other: Another location within the facility 
+such as a control room, equipment room, or turnstile area. May 
+be used to indicate areas around the facility that are on transit 
+property. 
+• Non-Revenue Facility: A facility or an area that is not used to 
+enable individuals to board or alight from transit vehicles and 
+that is primarily staffed by transit workers. 
+• Roadway: Grade Crossing or Right-of-way: Grade 
+Crossing: An intersection of a roadway and a rail right-of-way 
+where they cross each other at the same level (at grade). For 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 65 
+Selection Type Key Description 
+street-running operations, each street intersection is considered 
+a grade crossing (excluding driveways and parking lot 
+entrances). Pedestrian crosswalks in stations are also included. 
+• Roadway: Not a Grade Crossing or Intersection or Right of 
+way: Not a Grade Crossing: A mid-block or location on the 
+roadway or rail right-of-way that is not at an intersection. This 
+includes driveways, parking lot entrances, ramps, bridges, and 
+tunnels. 
+• Roadway: Intersection: An intersection or crossroads that 
+usually involves a crossing over of two streets or roads. The 
+intersection may be a T-intersection, multi-leg, or traffic circle 
+configuration. In areas where there are blocks, the crossing 
+streets or roads are perpendicular to each other. However, two 
+roads may cross at a different angle. 
+• Roadway: Transit Stop: A passenger boarding/deboarding 
+site. 
+Security Events 
+Security events are divided into two types: System Security Events and Personal Security 
+Events. 
+A reportable System Security Event or Personal Security Event is one that results in an 
+injury requiring transport away from the scene for medical attention, serious injury (rail 
+mode), fatality, property damage of $25,000 or more, substantial damage (rail mode), or 
+evacuation for life-safety reasons or to the rail right-of-way (rail mode). 
+Events at bus stops not on transit -owned property are not reportable unless the event 
+involves a transit vehicle or an individual boarding/alighting from a vehicle. Therefore, 
+events such as assault , robbery, etc. , occurring at bus stops or shelters owned by 
+municipalities or authorities that also operate transit systems are excluded. 
+Important clarification for reporting security events: 
+• Concurrent events: If two events occur a t the same time and place , the agency 
+should report the event by the event that occur red first, with the exceptions noted 
+previously when a collision is a result of a security event (assault, homicide, 
+suicide, or attempted suicide). 
+• Major and Non-major thresholds in the same event: If the event meets a major 
+and a non -major th reshold, the event would be reported as two events. For 
+example, a transit bus strikes a private vehicle resulting in a towaway, and the 
+
+2026 Safety and Security Policy Manual 
+66 – S&S-40 Major Event Report 
+driver assaults the bus operator, but the operator is not tra nsported for medical 
+attention. The agency would report the collision on the S&S-40 and the non-major 
+assault on the operator on the S&S-50. 
+Exhibit 31: Security Event Decision Flowchart 
+System Security Events 
+A System Security Event affects a transit system as a whole. Examples include but are 
+not limited to arson, burglary, vandalism, sabotage, hijacking, suspicious packages and 
+objects, cyber security, bomb threats, bombings, and chemical, biological, and 
+nuclear/radiological r eleases. Other System Security Events may include rocks or 
+projectiles thrown at a transit vehicle or shots fired in an area in which the vehicle travels. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 67 
+System Security Event Details Form 
+Exhibit 32: System Security Event Details Key Descriptions—Security Event 
+Types 
+Security Event 
+Types Key Description 
+Bomb Threat A credible written or oral (e.g., telephone) communication to a 
+transit agency threatening the use of an explosive or incendiary 
+device for the purpose of disrupting public transit services or to 
+create a public emergency. 
+Bombing The unlawful and intentional delivery, placement, discharge, or 
+detonation of an explosive or other device in, into, or against 
+transit property with the intent to cause death, bodily injury, or 
+extensive damage to property. 
+Suspicious Package An event that involves an unattended package deemed 
+suspicious by the transit agency that results in an evacuation. 
+Chemical/Biological/
+Nuclear/ 
+Radiological 
+The unlawful and intentional delivery, placement, discharge, or 
+detonation of a biological, chemical, or radiological or other 
+lethal device in, into, or against property. Chemical, biological, 
+or radiological/other releases involve solids, liquids, or gases 
+that have chemical properties that produce lethal or serious 
+effects in human beings; this includes any weapon involving a 
+disease organism. 
+Arson To unlawfully and intentionally damage or attempt to damage 
+any real or personal property by fire or incendiary device. 
+Hijacking The act of unlawfully seizing control of a transit vehicle by force 
+or threat, or by any other form of intimidation, and exercising 
+control over it with the intent to detain any person on board the 
+vehicle against their will, to transport any person(s) on board 
+the vehicle against their will to any place other than the next 
+scheduled stop, or to cause that vehicle to deviate from its 
+schedule. 
+Sabotage The deliberate destruction of transit property or the slowing 
+down of public transit operations by employees with the 
+intention of damaging business or the economic condition of 
+the transit agency. 
+
+2026 Safety and Security Policy Manual 
+68 – S&S-40 Major Event Report 
+Security Event 
+Types Key Description 
+Cyber An event that targets transit facilities, personnel, information, or 
+computer or telecommunications systems associated with 
+transit agencies. Include in the property damage any costs 
+associated with remedying the cyber event. Events include: 
+• Denial or disruption of computer or telecommunications 
+services, especially train control systems; 
+• Unauthorized monitoring of computer or 
+telecommunications systems; 
+• Unauthorized disclosure of proprietary or classified 
+information stored within or communicated through 
+computer or telecommunications systems; 
+• Unauthorized modification or destruction of computer 
+programming codes, computer network databases, stored 
+information or computer capabilities; or 
+• Manipulation of computer or telecommunications services 
+resulting from fraud, financial loss, or other criminal 
+violations. Note: Please refer to the “Cyber Security Event 
+Reporting” section of this manual following this table. 
+Burglary The unlawful entry into a building or other structure with the 
+intent to commit a felony or a theft. 
+Vandalism The willful or malicious destruction or defacement of transit 
+property or vehicles. 
+Other System 
+Security Event 
+— 
+— Not applicable. 
+Cyber Security Event Reporting 
+Reportable cyber security events are by definition events that affect “a transit system as 
+a whole.” For reporting purposes, the term “infrastructure” in a transit system includes 
+(but is not limited to) information, computer, and telecommunication systems . Agencies 
+should select a single designated mode for reporting cyber security events. Agencies 
+should read the following list to determine which mode they should assign when reporting 
+cyber security events: 
+All Rail Transit Agencies (RTAs) (any entity that provides services on a rail fixed guideway 
+public transportation system) should select a rail mode for reporting all cyber security 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 69 
+events, regardless of the specific infrastructure that is targeted. If an agency operates 
+more than one rail mode—for example, Heavy Rail (HR) and Light Rail (LR)—they would 
+follow the Predominant Use Rule to determine the appropriate mode to associate with the 
+event. 
+Agencies that operate fixed route bus modes, but do not operate fixed guideway rail, 
+should select a bus mode for reporting all cyber security events. If an agency operates 
+more than one bus mode —for example, Motorbus (MB) and Bus Rapid Transit (RB) —
+they s hould follow the Predominant Use Rule to determine the appropriate mode to 
+associate with the event. 
+Agencies that operate demand response service and do not operate fixed guideway rail 
+nor fixed route bus should select the demand response mode for reporting all cyber 
+security events. 
+Agencies that operate only ferryboat service should select the ferryboat mode for 
+reporting all cyber security events. 
+• Substantial Damage Threshold for Rail Modes. 
+For cyber events reported under a rail mode, the most common threshold met is 
+Substantial Damage. For this reason, agencies should keep the following in mind in 
+determining if the Substantial Damage threshold has been met for cyber security events: 
+• The “disruption of operations” element of the threshold includes the disruption of 
+normal operations of transit facilities, personnel, information, or 
+computer/telecommunication systems associated with transit agencies. Examples 
+include (but are not limited to) the following: 
+o Ransomware, if it disrupts operations; 
+o Denial of service attack, if it disrupts operations; 
+o Communications disruption (e.g., phone lines, website, digital signs, 
+applications); 
+o Shutting down systems to protect personal data; 
+o Severing connections to other systems; 
+o Inability to collect fares; and 
+o Inability to assign routes or make pull-out. 
+• If transit facilities, personnel, information, or computer/telecommunication systems 
+associated with transit agencies are not maliciously targeted, the “disruption of 
+
+2026 Safety and Security Policy Manual 
+70 – S&S-40 Major Event Report 
+operations” element is not met. Examples include (but are not limited to) the 
+following: 
+o A user installing an unapproved software utility to perform maintenance 
+activities or updates to fix a bug or deploy enhancements; 
+o Deployed software or logic changes that are not malicious; and 
+o Accidents that do not involve malicious actors. 
+• Cyber security events are automatically presumed to adversely affect the operating 
+characteristics of the asset or infrastructure that is targeted such that it will require 
+maintenance to remedy. Therefore, the second element of the substantial damage 
+threshold is presumed automatically met for these events. 
+Finally, events are reportable as cyber security events when they are caused by the 
+actions of a third party. If the actions are caused by a transit employee, the event should 
+be reported as a “Sabotage” event type. 
+Clarification on Vandalism and Sabotage Reporting 
+FTA’s clarification with regards to “ infrastructure” ( includes (but is not limited to) 
+information, computer, and telecommunication systems) applies to other system security 
+events, such as sabotage or vandalism, provided they meet all other major event 
+thresholds for all modes. Similarly, because they may involve “disruptions to 
+telecommunications services ,” major power failures which result in damage to these 
+systems would be reportable if they meet a major event threshold. 
+Exhibit 33: System Security Event Details Key Descriptions—Location 
+Location Key Description 
+In Vehicle/Vessel Interior or exterior of the transit vehicle or vessel. 
+Revenue Facility: 
+Transit Station/ 
+Center or 
+Terminal 
+A passenger boarding/deboarding from a facility with a platform, 
+which may include stairs, elevators, escalators, passenger controls, 
+canopies, wind shelters, ticket office or machines, restrooms, or 
+concessions. This includes the following: 
+• All fixed guideway passenger facilities (except for on-street 
+cable car and light rail stops); 
+• Busway passenger facilities; 
+• Underground, at grade, and elevated rail stations; 
+• Ferryboat terminals; 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 71 
+Location Key Description 
+• Transportation, transit, or transfer centers; 
+• Park-and-ride facilities; and 
+• Transit malls with the listed components, including those only 
+used by buses. 
+Revenue Facility: 
+Parking Facility 
+Includes park-and-ride lots and parking garages. Parking facilities 
+are those immediately adjacent to a transit station or center. 
+Revenue Facility: 
+Other 
+Another location within the facility such as a control room, 
+equipment room, or turnstile area 
+Non-Revenue 
+Facility 
+A facility or an area that is not used to enable individuals to board 
+or alight from transit vehicles and that is primarily staffed by transit 
+workers. 
+Right-of-way The area through which a train travels—a train's dynamic 
+envelope, including the track and the area around the track. 
+Example 14: Cyber Security Event Reporting 
+Scenario Solution 
+Scenario A: The agency experienced a 
+cyberattack that affected its paratransit 
+rides (DR) and bus operations (MB). 
+Personal information was leaked, and the 
+agency had to file an insurance claim. The 
+total damages were $47,030.00. The 
+agency does not operate rail fixed 
+guideway service. 
+Solution A: The event meets the 
+definition of a cyber security event and 
+resulted in damages meeting the $25,000 
+reporting threshold. The event is 
+reportable under the highest ridership 
+(MB) mode. 
+Scenario B: An unknown person hacked 
+into the agency’s network system via 
+unauthorized computer access. Files were 
+corrupted/damaged during the hack. The 
+website was down, preventing, for 
+example, paratransit ride requests. Fare 
+collection units were affected, and riders 
+could not obtain fare cards. Systems were 
+immediately shut down for repair. The 
+agency operates heavy rail (HR) and light 
+rail (LR). 
+Solution B: The event disrupted the 
+operations of the agency, and the second 
+element of the Substantial Damage 
+threshold is presumed automatically met. 
+This event therefore meets the Substantial 
+Damage threshold. The event is 
+reportable under the highest ridership rail 
+mode based on the Predominant Use 
+Rule. 
+
+2026 Safety and Security Policy Manual 
+72 – S&S-40 Major Event Report 
+Personal Security Events 
+A Personal Security Event occurs or affects individuals on transit property. Examples 
+include but are not limited to robbery, rape, theft, motor vehicle theft, larceny, assault 
+(including assaults on transit workers), homicide, attempted suicide or suicide that did not 
+involve contact with a transit vehicle , and other Personal Security Events that do not fit 
+into another category. 
+Important update pertaining to Robbery/Assault of a Passenger or Patron: If a crime 
+involving both a robbery and an assault meets the criteria of occurring at the same time 
+and place (one single event), the agency must report a Robbery Event and include the 
+assault details. Robberies with no confrontational circumstances should be reported as 
+Theft. 
+This change will not affect the reporting/collection of the Non -Major S&S-50 “Assault on 
+Transit Worker” data or Major S&S -40 “Assaults on Transit Workers .” Therefore, if an 
+Assault and Robbery of a transit worker occur at the same time, the event should be 
+reported as an Assault/Homicide on a Transit Worker. 
+FTA has defined a “Transit worker” as any employee, contractor, or volunteer working on 
+behalf of the transit agency. Note: If an assault, homicide, suicide, or attempted suicide 
+results in a collision, such as when a person is pushed into the path of a moving transit 
+vehicle and is struck, the event should be reported as a collision. 
+Exhibit 34: Personal Security Event Details Key Descriptions—Security Event 
+Types 
+Security Event 
+Type Selection Key Description 
+Assault An attack by one person on another without lawful authority or 
+permission. 
+An assault on a transit worker is a circumstance in which an 
+individual knowingly, without lawful authority or permission, and 
+with intent to endanger the safety of an individual, or with a 
+reckless disregard for the safety of human life, interferes with, 
+disables, or incapacitates a transit worker while the transit worker 
+is performing their duties of the transit worker. 
+• FTA’s assault definition requires either “intent to endanger the 
+safety of any individual” or “reckless disregard for the safety of 
+human life.” 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 73 
+Security Event 
+Type Selection Key Description 
+o It is the reporter’s responsibility to determine the presence of 
+intent to endanger an individual or reckless disregard for 
+safety. FTA may occasionally ask for detail about how your 
+agency assessed the actor’s “intent to endanger the safety of 
+any individual” or “reckless disregard for the safety of human 
+life” to confirm that a reporting threshold was met before 
+continuing data validation. 
+• FTA encourages you to identify which threshold is met in the 
+Event Description. This promotes data validation efficiency in 
+that FTA may more rapidly confirm that the reporting 
+requirement applies. 
+• The occurrence of these events is captured in the 
+“Assault/Homicide details” field as follows: 
+o Assault/Homicide against Operator: An Operator is an 
+individual who is compensated by the transit agency and 
+whose function is to operate the transit vehicle. 
+o Assault/Homicide against Other Transit Worker (e.g., 
+transit police, station agent, etc.): An Other Transit Worker 
+is an individual other than an operator who is compensated 
+by the transit agency or who is otherwise providing specific 
+services on behalf of a transit agency. 
+o Assault/Homicide not against Transit Worker: An assault 
+that is not an Assault on a Transit Worker. 
+• In addition, the “Worker Assault Detail Type” is collected for 
+Assaults on Transit Operators or Other Transit Workers as 
+follows: 
+o Physical Assault on a Transit Worker: An assault in which 
+the attack involves physical contact with the transit worker. 
+This could include any physical contact with the victim from 
+the attacker's body, a weapon, a projectile, or other item. 
+o Non-Physical Assault on a Transit Worker: An assault in 
+which the attack involves no physical contact with the transit 
+worker. This could include threats or intimidation that do not 
+result in any physical contact with the transit worker. 
+Robbery The taking, or attempting to take, of anything of value under 
+confrontational circumstances from the control, custody, or care of 
+another person by force or violence or by putting the victim in fear 
+of immediate harm. 
+
+2026 Safety and Security Policy Manual 
+74 – S&S-40 Major Event Report 
+Security Event 
+Type Selection Key Description 
+Rape The carnal knowledge of a person, forcibly and against that 
+person’s will. 
+Motor Vehicle 
+Theft 
+The act or attempted act of stealing a motor vehicle. 
+Larceny/Theft The unlawful taking, carrying, leading, or riding away of property 
+from the possession (or constructive possession) of another 
+person. 
+Homicide The killing of one human being by another, including murder and 
+non-negligent manslaughter (the willful [non-negligent] killing of one 
+human being by another), and negligent manslaughter (the killing 
+of another person through gross negligence). 
+As a general rule, agencies should classify in this category any 
+death due to injuries received in a fight, argument, quarrel, assault, 
+or commission of a crime. Although law enforcement agencies may 
+charge offenders with lesser offenses, (e.g., negligent 
+manslaughter,) agencies should report the offense as murder and 
+non-negligent manslaughter if the killing was willful or intentional. 
+The occurrence of these events is captured in the 
+“Assault/Homicide details” field as follows: 
+• Assault/Homicide Against Operator: An Operator is an 
+individual who is compensated by the transit agency and whose 
+function is to operate the transit vehicle. 
+• Assault/Homicide Against Other Transit Worker (e.g., 
+transit police, station agent, etc.): An Other Transit Worker is 
+an individual other than an operator who is compensated by the 
+transit agency or who is otherwise providing specific services on 
+behalf of a transit agency. 
+• Assault/Homicide not Against Transit Worker: Selecting this 
+indicates that the assault was not an “Assault on a Transit 
+Worker.” 
+In addition, the “Worker Assault (Homicide) Detail Type” is 
+collected as follows: 
+• Physical Assault on a Transit Worker: An assault in which 
+the attack involves physical contact with the transit worker. This 
+could include any physical contact with the victim from the 
+attacker's body, a weapon, a projectile, or other item. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 75 
+Security Event 
+Type Selection Key Description 
+• Non-Physical Assault on a Transit Worker: An assault in 
+which the attack involves no physical contact with the transit 
+worker. This could include threats or intimidation that did not 
+result in any physical contact with the transit worker. 
+Suicide Self-inflicted harm where the intention of the person was to cause a 
+fatal outcome. 
+Attempted 
+Suicide 
+Self-inflicted harm where death does not occur, but the intention of 
+the person was to cause a fatal outcome. 
+• Ensure that the event description clearly addresses the intent 
+and includes details of the attempt. This can be determined by 
+any reasonable method including police reports and third-party 
+witness statements. 
+• If there was no self-inflicted harm or suicidal intent and the 
+individual was transported only for a mental health evaluation, 
+the event is not reportable. 
+• Intentional drug overdoses are not reportable to the NTD. 
+Other Personal 
+Security Event 
+A personal security event which does not fall into one of the listed 
+categories. 
+Exhibit 35: Personal Security Event Details Key Descriptions – Locations 
+Location Selection Personal Security Event Details Key Description 
+In Vehicle/Vessel Interior or exterior of the transit vehicle or vessel. 
+Revenue Facility: 
+Transit 
+Station/Center or 
+Terminal 
+A passenger boarding/deboarding from a facility with a 
+platform, which may include stairs, elevators, escalators, 
+passenger controls, canopies, wind shelters, ticket office or 
+machines, restrooms, or concessions. This includes the 
+following: 
+• All fixed guideway passenger facilities (except for on-street 
+cable car and light rail stops); 
+• Busway passenger facilities; 
+• Underground, at grade, and elevated rail stations; 
+• Ferryboat terminals; 
+• Transportation, transit, or transfer centers; 
+
+2026 Safety and Security Policy Manual 
+76 – S&S-40 Major Event Report 
+Location Selection Personal Security Event Details Key Description 
+• Park-and-ride facilities; and 
+• Transit malls with the listed components, including those 
+only used by buses. 
+Revenue Facility: 
+Parking Facility 
+Includes park-and-ride lots as well as parking garages. Parking 
+facilities are those immediately adjacent to a transit station or 
+center. 
+Revenue Facility: 
+Other 
+Another location within the facility such as a control room, 
+equipment room, or turnstile area. 
+Non-Revenue 
+Facility 
+A facility or an area that is not used to enable individuals to 
+board or alight from transit vehicles, and that is primarily staffed 
+by transit employees. 
+Right-of-way The area through which a train travels—a train’s dynamic 
+envelope, including the track and the area around the track. 
+Example 15 provides a few examples of reporting “pepper-spray” security events and the 
+method for reporting these events based on the circumstances. It is important th at the 
+event description clearly identifies what occurred. 
+Example 15: Security Event Major Event Type Reporting 
+Scenario Solution 
+Scenario A: A patron dispenses pepper 
+spray in a bus. Three people have 
+difficulty breathing, experience eye 
+irritation, and are immediately transported 
+away from the scene. 
+Solution A: This meets the injury 
+threshold. Select “System Security Event” 
+and select “Chemical/Biological/Nuclear/ 
+Radiological” as the event type. 
+Scenario B: A patron targets another 
+patron and sprays the individual’s face 
+with Mace. The patron is immediately 
+transported away from the scene. 
+Solution B: This meets the injury 
+threshold. Since the attack was directed at 
+a specific patron, select “Personal Security 
+Event,” and select “Assault” as the event 
+type. 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 77 
+Scenario Solution 
+Scenario C: A transit police officer is 
+involved in an altercation with a fare 
+evader who is resisting arrest. The officer 
+pepper sprays the individual to gain 
+control. The individual is transported away 
+for medical attention. 
+Solution C: This meets the injury 
+threshold for a security event. Select 
+“Personal Security Event,” select “Other 
+personal security event” as the event type, 
+and enter a descriptive comment in the 
+“Please describe” box. 
+Example 16 provides examples of Major Assaults on Transit Workers. 
+Example 16: Major Event Assault on Transit Worker Reporting 
+Scenario Solution 
+Scenario A: A passenger boards a bus 
+and refuses to pay the fare. The 
+passenger spits on the operator, and the 
+operator is transported for medical 
+attention. 
+Solution A: This meets the definition of an 
+assault on a transit worker. Select 
+“Personal Security Event,” “Assault” as the 
+event type, then “Assault/Homicide 
+Against Operator” and “Physical Assault 
+on a Transit Worker,” and include the 
+injured operator. 
+Scenario B: Two transit police officers are 
+involved in an altercation with a trespasser 
+who is resisting arrest. The trespasser 
+bites one officer and kicks the other. Both 
+officers are transported for medical 
+attention. 
+Solution B: This meets the definition of an 
+assault on a transit worker. Select 
+“Personal Security Event,” “Assault” as the 
+event type, then “Assault/Homicide 
+Against Other Transit Worker,” then 
+“Physical Assault on a Transit Worker,” 
+and include two injured workers. 
+Scenario C: A transit rider repeatedly 
+strikes at an operator with a metal bar and 
+verbally threatens the operator with bodily 
+harm. However, no physical contact is 
+made. The operator is transported for 
+trauma. 
+Solution C: This meets the definition of an 
+assault on a transit worker. Select 
+“Personal Security Event,” “Assault” as the 
+event type, then “Assault/Homicide 
+Against Operator” and “Non-Physical 
+Assault on a Transit Worker” and include 
+the injured operator. 
+Other Safety Events 
+Other Safety Events include but are not limited to slips, trips, falls, smoke, power failure, 
+maintenance-related issues, electric shock, or runaway train events. To be reported as a 
+major event, t hese events must either meet the fatality, evacuation, runaway train, 
+
+2026 Safety and Security Policy Manual 
+78 – S&S-40 Major Event Report 
+property damage (rail or non -rail criteria), or serious injury threshold or result in two or 
+more injured individuals. Other Safety Events that cause only one individual to be 
+immediately transported from the scene for medical attention that is not a serious injury, 
+and that do not trigger any other reporting threshold, are reported on the Non -Major 
+Monthly Summary Report form. 
+FTA includes Other Safety Events that occur in a transit maintenance facility and meet a 
+reporting threshold but continues to exclude occupational safety events occurring in 
+administrative buildings. 
+Exhibit 36: Other Safety Event Decision Flowchart 
+
+2026 Safety & Security Policy Manual 
+S&S-40 Major Event Report – 79 
+Exhibit 37: Other Event Details Key Descriptions 
+Selection Type Key Description 
+Event • Smoke, 
+• Fumes/Noxious Odors, 
+• Electric Shock, 
+• Outside Conditions (powerlines, pantographs, etc.), 
+• Power Failure, 
+• Maintenance Related, 
+• Slip/Trip/Fall, or 
+• Runaway Train: A train that is no longer under the control of a 
+driver regardless of whether the operator is physically on the 
+vehicle at the time. This is limited to rail vehicles that are used 
+for revenue service, regardless of whether the event occurred 
+while in revenue service. 
+Location • Boarding/alighting: With stairs. 
+• Boarding/alighting: With lift or ramp. 
+• Boarding/alighting: Other. 
+• Vehicle Exterior: The exterior of the transit vehicle. 
+• Roadway. 
+• Right-of-way. 
+• Yard. 
+• Revenue facility: Elevator related. 
+• Revenue facility: Escalator related. 
+• Revenue facility: Ramp. 
+• Revenue facility: Stairway. 
+• Revenue facility: Platform/stop/waiting area. 
+• In Vehicle/Vessel: Securement Issue: In or on a transit 
+vehicle and pertains to the securement of a wheelchair or other 
+mobility device. 
+• In Vehicle/Vessel: Not a Securement Issue: In or on a transit 
+vehicle and does not pertain to the securement of a wheelchair 
+or other mobility device. 
+• Revenue Facility: Parking Facility: Includes park-and-ride lots 
+and parking garages. Parking facilities are those immediately 
+adjacent to a transit station or center. 
+• Revenue Facility: Other: Another location within the facility, 
+such as a control room, equipment room, or turnstile area. May 
+
+2026 Safety and Security Policy Manual 
+80 – S&S-40 Major Event Report 
+Selection Type Key Description 
+be used to indicate a bus or service stop or areas around the 
+facility that are on transit property. 
+• Non-Revenue Facility: A facility or an area that is not used to 
+enable individuals to board or alight from transit vehicles and 
+that is primarily staffed by transit workers. 
+Example 17: Other Safety Event Major Event Type Reporting 
+Scenario Solution 
+Scenario A: A patron in a transit center 
+falls down the stairs, sustains a head 
+injury, is immediately transported away 
+from the scene, and dies 10 days after 
+the event due to the injury. 
+Solution A: This meets the Fatality 
+threshold. Select “Other Safety Event” and 
+select “Slip/Trip/Fall” as the event type. 
+Scenario B: A bus fills with heavy fuel 
+fumes, and employees evacuate the 
+passengers to the roadway. 
+Solution B: This meets the Evacuation 
+threshold. Report “Other Safety Event,” 
+then select “Fumes/Noxious Odors” as the 
+event type and include the evacuation 
+screen. 
+Scenario C: An elevator has a 
+mechanical problem causing it to jerk to 
+a stop. Two patrons are transported 
+away for medical attention. 
+Solution C: This meets the two-injury 
+threshold for Other Safety Event. Select 
+“Other Safety Event,” then select 
+“Maintenance Related” as the event type 
+and complete two injury sub-forms. 
+
+2026 Safety & Security Policy Manual 
+S&S-50 Non-Major Monthly Summary Report – 81 
+S&S-50: Non-Major Monthly Summary Report 
+Overview 
+The Non -Major Monthly Summary Report (S&S-50) captures monthly summary 
+information on minor fires, other less severe single-injury safety events, and assaults on 
+a transit worker that are not reportable as major events. 
+On the Non-Major Monthly Summary Report, agencies only report the following: 
+• The number of assaults on a transit worker that occurred without injury (i.e., with
+no transport away from the scene for medical attention),
+• Safety incidents and the number of individuals immediately transported away from
+the scene for medical attention each month due to those occurrences, and
+• Fires with suppression that occurred without injury.
+Agencies do not provide details on specific people and vehicles involved for these events. 
+For Americans with Disabilities or Paratransit modes providing door-to-door service, when 
+an individual slips, trips, or falls walking to or from t he transit vehicle and is injured 
+(tra
+nsported for medical attention), their injury is reportable on the N on-Major Monthly 
+Summary R
+eport as this is considered part of the boarding/alighting process. 
+Agencies must submit one S&S-50 each month for all modes regardless of whether they 
+have data to report, or if an S&S-40 has been submitted for a mode during that month. 
+(All events resulting in two or more injuries are reported as a major event.) 
+The Non-Major Monthly Summary Report has three event type categories: Non-Major 
+Worker Assaults, Other Safety Indicents, and Number of Non-Major Fires. The forms 
+differ slightly by mode. 
+Note: Do not submit 
+monthly forms prior to the end of the reporting period. Reports 
+submitted prior to the end of the month may be missing data. After the end of the month, 
+review the data and re-submit the form to reflect a date after the end of the month. 
+If a form is submitted prior to the end of the reporting period, remove any reported events, 
+check “no data to report,” and save the form. 
+A reportable non-major event is one that: 
+• Occurs on transit right-of -way or infrastructure (the underlying framework or
+structures that support a public transportation system),
+
+2026 Safety and Security Policy Manual 
+82 – S&S-50 Non-Major Monthly Summary Report 
+• Occurs at a transit revenue facility, 
+• Occurs at a maintenance facility or rail yard, 
+• Occurs during a transit-related maintenance activity, or 
+• Involves a transit revenue vehicle. 
+Excluded from this event reporting requirement are 
+• Events that occur off transit property where affected individuals, vehicles, or 
+objects come to rest on transit property after the event; 
+• Occupational safety events occurring in administrative buildings; 
+• Events that occur during the engineering or construction phases of a new rail 
+transit system or the extension of an existing rail transit system, unless they involve 
+transit-related activities such as operations, testing, simulated service or 
+pre-revenue service, or a transit-related maintenance activity; 
+• Events at bus stops not on transit -owned property (unless the event involves a 
+transit vehicle or boarding/alighting from a vehicle); and 
+• Events where an individual is transported for mental health evaluation (for 
+example, a n individual stating they would like to harm themselves where no 
+attempt is made). 
+Note: Bus stops or shelters owned by municipalities or authorities that also operate transit 
+systems are not considered “transit-owned” property. 
+Multi-Agency Facilities 
+Around the country, there are transit facilities that are shared by multiple transit agencies. 
+Capturing safety and security events in such a facility can be a challenge. An event 
+occurring in a multi -agency facility is reportable if the event meets a reporting threshold 
+and occurs in a transit agency's designated area of the facility. 
+Predominant Use 
+The Predominant Use Rule is applied when an event affects more than one mode. If two 
+or more transit modes within an agency are affected by an event, the agency would report 
+the event in only one mode. 
+• If the event involves rail and non-rail, the agency reports the event in the rail mode. 
+• If the event involves two rail modes or two non-rail modes, the agency selects the 
+mode to report based on predominant use. 
+
+2026 Safety & Security Policy Manual 
+S&S-50 Non-Major Monthly Summary Report – 83 
+The volume of passengers served by a mode most often measures predominant use. For 
+example, if an event occurred in a multi-modal station served by Heavy Rail and LR, the 
+agency would report the event under LR based on the higher volumes of LR boarding 
+passengers. 
+Non-Major Assaults on Transit Workers 
+On the S&S-50 form, agencies must report assaults on a transit worker that did not result 
+in immediate transport away from the scene. Therefore, when an event meets the 
+definition for assault on a transit worker but does not involve an injury or fatality (e.g., 
+spitting), it must be reported on the S&S-50 form. Note that an assault involving transport 
+away from the scene for medical attention meet s the injury threshold and is reported as 
+a major S&S -40 event. The S&S-50 form collects the number of events per month and 
+identifies the location of the incident. 
+• An assault on a transit worker is a circumstance in which an individual knowingly, 
+without lawful authority or permission, and with intent to endanger the safety of any 
+individual, or with a reckless disregard for the safety of human life, interferes with, 
+disables, or incapacitates a transit worker while the transit worker is performing the 
+duties of the transit worker. 
+• FTA’s assault definition requires either “intent to endanger the safety of any 
+individual” or “reckless disregard for the safety of human life.” 
+• It is the reporter’s responsibility to determine the presence of intent to endanger 
+an individual or reckless disregard for safety. During the process of data validation, 
+FTA may occasionally ask for detail about how your agency assessed the actor ’s 
+“intent to endanger the safety of any individual” or “reckless disregard for the safety 
+of human life” to confirm that a reporting threshold was met before continuing data 
+validation. 
+Agencies must report a count of Assaults on a Transit Worker occurring in the respective 
+month using three criteria: Transit Worker Assault Detail Type (Physical vs. Non -
+Physical), Transit Worker Type (Operator vs. Other), and Location. 
+
+2026 Safety and Security Policy Manual 
+84 – S&S-50 Non-Major Monthly Summary Report 
+Exhibit 38: Transit Worker Descriptions 
+Selection Type Key Description 
+Transit Worker 
+Assault Detail 
+Type 
+• Physical: An assault in which the attack involved physical 
+contact with the transit worker. This could include any physical 
+contact with the victim from the attacker’s body, a weapon, a 
+projectile or other item (e.g., spitting). 
+• Non-Physical: An assault in which the attack involves no 
+physical contact with the transit worker. This could include 
+threats, intimidation, or interference that did not result in any 
+physical contact with the transit worker. 
+Transit Worker 
+Type 
+• Operator: An individual who is compensated by the transit 
+agency and whose function is to operate the transit vehicle. 
+• Other Transit Worker (e.g., transit police, station agent, 
+etc.): An individual who is compensated by the transit agency or 
+who is otherwise providing specific services on behalf of a 
+transit agency. 
+Example 18: Non-Major Event Assault on a Transit Worker Reporting 
+Scenario Solution 
+Scenario A: A passenger boards a bus 
+but refuses to pay the fare. The 
+passenger spits on the operator, but the 
+operator denies transport for medical 
+attention and resumes service. 
+Solution A: The agency reports the one 
+event in the “Non-Major Physical Assault 
+on Operators” column and the “Location of 
+Event” as “In transit vehicle.” 
+Scenario B: A train cleaner accidentally 
+brushes a passenger's foot. The 
+passenger threatens the cleaner with 
+bodily harm. The cleaner is not 
+transported for medical attention. 
+Solution B: The agency reports the one 
+event in the “Non-Major Non-Physical 
+Assault on Other Transit Workers” column 
+and the “Location of Event” as “In transit 
+vehicle.” 
+Scenario C: A transit operator is cursed 
+at by a passenger while exiting the 
+vehicle. No direct threat was made and 
+there was no delay in service. 
+Solution C: This does not meet the 
+definition of an Assault on a Transit 
+Worker and is therefore not reportable. 
+Scenario D: A paratransit scheduler is 
+verbally threatened with bodily harm over 
+the phone while working in an 
+administrative building. 
+Solution D: This constitutes an 
+occupational safety related event 
+occurring in an administrative building 
+and therefore is not reportable. 
+
+2026 Safety & Security Policy Manual 
+S&S-50 Non-Major Monthly Summary Report – 85 
+Exhibit 39: Location Selections 
+Location Selection Key Description 
+In Transit Vehicle In or on a transit vehicle. 
+In Revenue Facility A facility or an area that a passenger uses to board/deboard 
+from a transit vehicle using a platform, which may include 
+stairs, elevators, escalators, passenger controls, canopies, 
+wind shelters, ticket office or machines, restrooms, or 
+concessions. This includes the following: 
+• All fixed guideway passenger facilities (except for on-street 
+cable car and light rail stops); 
+• Busway passenger facilities; 
+• Underground, at-grade, and elevated rail stations; 
+• Ferryboat terminals; 
+• Transportation, transit, transfer centers, park-and-ride 
+facilities, and transit malls with the listed components, 
+including those only used by buses; 
+• Parking facilities and garages (parking facilities are those 
+immediately adjacent to a transit station or center); and 
+• Other locations within the facility, such as a control room, 
+equipment room, or turnstile area. 
+In Non-Revenue 
+Facility 
+A facility or an area that is not used to enable individuals to 
+board or alight from transit vehicles, and that is primarily 
+staffed by transit workers. 
+Other (e.g., city 
+street) 
+A location that is not in a revenue or non-revenue facility and 
+is not a transit vehicle. This selection is used to capture 
+events that did not occur in listed locations. For example, an 
+individual is pushed into a stationary transit vehicle on the 
+roadway. 
+
+2026 Safety and Security Policy Manual 
+86 – S&S-50 Non-Major Monthly Summary Report 
+Number of Other Safety Incidents 
+Other Safety Incidents are not collisions, fires, derailments, acts of God, hazardous 
+material spills, or security events. Rather, they are single- injury safety events. Injury 
+means any harm to individuals as a result of an event that requires immediate medical 
+attention away from the scene. 
+Events involving individuals who are transported away from the scene for the following 
+reasons are not reportable: 
+• Solely for illness, natural causes, exposure to the elements, intoxication, drug 
+overdose, mental health evaluation unrelated to a specific reportable event, and 
+• Declarations or allegations of self-harm with no evident injury. 
+Other Safety Incidents that meet the fatality, evacuation, damage, and/or or two-injury 
+thresholds are not reported on the Non -Major Monthly Summary Report. Instead, an 
+agency should report an event meeting any of these criteria under Other Safety Event on 
+the S&S-40 form. 
+The NTD does not collect reports of individuals transported away from the scene 
+unrelated to a specific reportable event. For example, if a person is acting erratically on 
+the rail alignment and the individual is restrained and transported for evaluation, but there 
+is no related event, this does not meet the injury threshold and is therefore not reportable. 
+When reporting “Other Injuries ,” you must provide a description of who th e injured non-
+worker or non-patron is in the pop-up box labeled “Please describe Other Injuries.” 
+Some examples of reportable injury incidents (immediate transport from the scene for 
+medical attention) include: 
+• Electric shock to an individual, 
+• A transit driver braking hard to avoid a collision resulting in one injury, 
+• Mobility device securement (tie down) malfunction, 
+• An event that occurs on transit vehicle lift equipment, 
+• A person falling either up or down the steps of a bus or a facility resulting in one 
+injury, 
+• A person falling into the side of a stopped transit vehicle, 
+• A transit vehicle door closing on a person or clothing, and 
+• A person falling when walking to or from a door-to-door service transit vehicle. 
+
+2026 Safety & Security Policy Manual 
+S&S-50 Non-Major Monthly Summary Report – 87 
+Please refer to Exhibit 36, “Other Safety Event Decision Flowchart ,” for information on 
+reporting slips and falls as a major or non-major event. 
+Exhibit 40: Number of Safety Incidents Key Descriptions 
+Selection Type Key Descriptions 
+In Transit 
+Vehicle 
+• Boarding/Alighting: With stairs 
+• Boarding/Alighting: With lift or ramp 
+• Boarding/Alighting: Other 
+• Other in Vehicle: Securement Issue: In or on a transit vehicle 
+and pertains to the securement of a wheelchair or other mobility 
+device. 
+• Other in Vehicle: Not a Securement Issue: In or on a transit 
+vehicle and does not pertain to the securement of a wheelchair 
+or other mobility device. 
+In Revenue 
+Facility 
+• Ramps, 
+• Stairs, 
+• Escalators, 
+• Elevators, 
+• Platform, or 
+• Parking facility. 
+Other Location • In Non-Revenue Facilities, or 
+• Other: Add a description in the “Please describe other” box 
+when this selection is chosen. Describe the nature of the event, 
+the location, and injured individual(s). 
+Injury Person 
+Type 
+• Patron: An individual on board a revenue transit vehicle or an 
+intending/deboarded passenger in a transit facility. Excludes 
+operators, transit employees, and contractors. 
+• Transit Employee/Contractor: An individual who is 
+compensated by the transit agency. 
+• Other: An individual who is not a patron and not compensated 
+by the agency. 
+
+2026 Safety and Security Policy Manual 
+88 – S&S-50 Non-Major Monthly Summary Report 
+Example 19: Safety Incidents Reporting 
+Scenario Solution 
+Scenario A: A person falls from the 
+platform and briefly touches the third rail, 
+causing a burn and requiring immediate 
+medical attention away from the scene. 
+Solution A: The agency reports the one 
+Occurrence and the one injury related to 
+this event on the Non-Major Monthly 
+Summary Report under “Number of Other 
+Safety Incidents and Related Non-Serious 
+Injuries.” 
+Scenario B: A track worker is repairing 
+rail ties on the track and falls to the 
+roadbed, resulting in lacerations to the 
+knee. 
+Solution B: Since this is maintenance 
+related, the agency reports the one 
+Occurrence and the one (1) injury on the 
+Non-Major Monthly Summary Report 
+under “Number of Other Safety Incidents 
+and Related Non-Serious Injuries.” 
+Scenario C: A pedestrian falls into the 
+side of a bus stopped at a traffic light. 
+The individual is transported from the 
+scene for medical attention with a bump 
+on the forehead. 
+Solution C: Since the vehicle was not 
+moving at the time, the agency reports the 
+one Other Safety Incidents under the 
+category “Other locations,” “Other” 
+selection, with the person type reported as 
+“Other.” 
+Number of Non-Major Fires 
+Agencies must report incidents of fires that require suppression but do not meet a major 
+event reporting threshold. If the fire event meets a major event threshold (injury, fatality, 
+evacuation, property damage), it is to be reported as a major event on the S&S-40. 
+Please refer to Exhibit 26, “Fire Decision Flowchart” for determining major and non-major 
+fire reporting. 
+Number of Non-Major Fire Events Key Descriptions 
+Enter the number of non-major fire events by location (refer to definitions in Exhibit 39 as 
+follows: 
+• In Transit Vehicle,
+• At Revenue Facility,
+• At Non-Revenue Facility, and
+
+2026 Safety & Security Policy Manual 
+S&S-50 Non-Major Monthly Summary Report – 89 
+• On Right-of-way: The area through which a train travels; a train ’s dynamic 
+envelope, including the track and the area around the track. Not used for non -rail 
+modes. 
+Example 20: Fire Event 
+Scenario Solution 
+Scenario A: A transit bus (MB) has 
+smoke coming from under the hood, and 
+the operator finds a small electrical fire. 
+Suppression is required and used to end 
+the fire, but there are no passengers on 
+the transit bus and the property damage 
+is estimated at $10,000. 
+Solution A: Because this fire required an 
+act of suppression but does not meet a 
+major event-reporting threshold, this event 
+must be reported on the S&S-50 under 
+Number of Non-Major Fires. 
+Scenario B: A small fire on the right-of-
+way is extinguished. It does not cause 
+any damage or injuries. 
+Solution B: This event is reported on an 
+S&S-50 form, as there were no injuries, no 
+evacuation, and no damages. 
+
+2026 Safety and Security Policy Manual 
+90 – Appendix A: Data Reports 
+Appendix A: Safety and Security Data Reports 
+The NTD online reporting application provides access to a variety of a data reports. NTD 
+reporters may use these reports to download their reported data, compare their agency’s 
+safety data against other pe er agencies, or obtain an industry rate comparison of the ir 
+agency’s safety data. 
+To access these reports within the NTD, please navigate to the Reports tab on the Menu 
+bar, and then choose Safety. 
+The following provides a listing and explanation of available reports: 
+Historical S&S Form Lookup 
+This report allows you to view only the data the agency reported from 2014 to the prior 
+year. You will request the year, mode and Type of Service, and form type to display. 
+Rate Compared to Industry Rate 
+This compares the agency ’s event, injury, and fatality count to the national average per 
+mode and type of service for a defined period per 10,000,000 Unlinked Passenger Trips. 
+Note: The “Rate Compared to Industry Rate” report is the only report that uses up-to-date 
+data as reported in system. All of the following reports will have a 3-month lag. For 
+example, a report you access in December will include data through September of the 
+current year. 
+Major Event Report 
+This is a list of all Major Safety and Security Events from January of 2014 to the most 
+recently published data within the FTA’s major event time series. 
+When redirected to the site, you will need to create a view to filter the data to your agency, 
+desired period, mode, etc. 
+Non-Major Event Report 
+This includes c ounts of minor fires on transit property requiring suppression, transit 
+worker assaults not involving transport for medical attention, and other safety events that 
+are not reportable as major events because a major event reporting threshold is not met. 
+When redirected to the site, you will need to create a view to filter the data to your agency, 
+desired period, mode, etc. 
+
+2026 Safety & Security Policy Manual 
+Appendix A: Data Reports – 91 
+FRA Regulated Mode Major Security Events 
+This includes event data reported for Commuter Rail (CR) and Alaska Railroad (AR) 
+modes, as well as Heavy Rail (HR) modes reported as public transportation but that fall 
+under the safety oversight of the Federal Railroad Administration. The reporting agencies 
+are not required to report Safety Events (e.g., collisions, derailments, etc.) to the FTA for 
+these modes through the NTD. 
+When redirected to the site, you will need to create a view to filter the data to your agency, 
+desired period, mode, etc. 
+Safety & Security Time Series (Threshold-Adjusted) 
+This file counts both Major and Non-Major S&S event data including totals for injuries and 
+fatalities. It presents data by year and by event type, person type, etc. Note that FTA 
+makes adjustments within this file to preserve historical consistency in data definitions. 
+The data is presented as a Microsoft Excel file. 
+Safety & Security Major Only Time Series 
+This file counts only events meeting a major event reporting threshold from 2002 to 
+present, as determined by reporting thresholds for the given year. It presents data by year 
+and by event type, person type, etc. The data is presented as a Microsoft Excel file. 
