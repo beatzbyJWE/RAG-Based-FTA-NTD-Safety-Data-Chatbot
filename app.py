@@ -9,7 +9,10 @@ Run with:
 
 import streamlit as st
 from src.assistant import ask
-from src.embeddings import index_count
+from src.embeddings import index_count, index_chunks
+from src.ingest import fetch_fta_data, prepare_chunks
+
+CLOUD_RECORD_LIMIT = 10_000  # Keeps cold-start build under ~2 minutes
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -26,23 +29,29 @@ st.caption(
     "(https://data.transportation.gov/Public-Transit/Major-Safety-Events/9ivb-8ae9)."
 )
 
-# ── Index check ───────────────────────────────────────────────────────────────
-@st.cache_resource
-def check_index():
-    try:
-        return index_count()
-    except Exception:
-        return 0
+# ── Index: auto-build if missing ──────────────────────────────────────────────
+@st.cache_resource(show_spinner=False)
+def load_or_build_index() -> int:
+    count = index_count()
+    if count > 0:
+        return count
 
-doc_count = check_index()
-if doc_count == 0:
-    st.error(
-        "⚠️ Vector index not found. Run `python -m src.build_index` in your terminal first, "
-        "then restart the app."
-    )
-    st.stop()
-else:
-    st.success(f"✅ Index loaded — {doc_count:,} safety events available")
+    # Index not found — build it now (first cold start on Streamlit Cloud)
+    placeholder = st.empty()
+    placeholder.info("⏳ First launch: building search index from FTA safety data. This takes about 2 minutes — please wait.")
+
+    with st.spinner("Fetching safety events from data.transportation.gov..."):
+        df = fetch_fta_data(limit=CLOUD_RECORD_LIMIT, use_cache=False)
+
+    with st.spinner(f"Embedding {len(df):,} records via Voyage AI..."):
+        chunks = prepare_chunks(df)
+        index_chunks(chunks)
+
+    placeholder.empty()
+    return index_count()
+
+doc_count = load_or_build_index()
+st.success(f"✅ Index loaded — {doc_count:,} safety events available")
 
 # ── Sidebar controls ──────────────────────────────────────────────────────────
 with st.sidebar:
