@@ -32,7 +32,7 @@ User question
  safety event records
       │
       ▼
- Top 8 matching          ← ranked by cosine similarity
+ Top X matching          ← ranked by cosine similarity
  event records
       │
       ▼
@@ -99,7 +99,7 @@ This downloads ~50k safety events from the DOT API, converts each record to a te
 streamlit run app.py
 ```
 
-Open http://localhost:8501 in your browser.
+Open the local host in your browser.
 
 ---
 
@@ -144,17 +144,8 @@ This project is a proof of concept for a pattern I apply when advising organizat
 
 The transit safety domain is one I know well. The same architecture applies to HR incident logs, customer support tickets, regulatory filings, clinical notes, or any other corpus of semi-structured records where people need to ask questions faster than a data team can write queries.
 
----
-
-## Related work
-
-- [FTA Safety Analysis & Visualization](https://beatzbyjwe.github.io/#professional-work) — geospatial heat maps and time-slider visualizations of this same dataset
-- [NLP for Data Validation](https://beatzbyjwe.github.io/#professional-work) — earlier proof-of-concept using NLP on transit data validation
-- [Eldredge Management Consulting](https://eldredgemgmtconsulting.com) — AI advisory and program management services
-
----
 
 ## Author
 
 **Joseph Eldredge** | PMP, CPMAI  
-[eldredgemgmtconsulting.com](https://eldredgemgmtconsulting.com) · [LinkedIn](https://www.linkedin.com/in/joseph-eldredge-75ab6349/) · [GitHub](https://github.com/beatzbyJWE)
+[LinkedIn](https://www.linkedin.com/in/joseph-eldredge-75ab6349/) · [GitHub](https://github.com/beatzbyJWE)
