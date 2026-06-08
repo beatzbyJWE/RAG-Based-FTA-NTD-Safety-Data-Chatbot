@@ -53,6 +53,12 @@ def ask(question: str, n_results: int = 8) -> dict:
     """
     api_key = os.getenv("ANTHROPIC_API_KEY")
     if not api_key:
+        try:
+            import streamlit as st
+            api_key = st.secrets.get("ANTHROPIC_API_KEY")
+        except Exception:
+            pass
+    if not api_key:
         raise EnvironmentError(
             "ANTHROPIC_API_KEY not set. Copy .env.example to .env and add your key."
         )

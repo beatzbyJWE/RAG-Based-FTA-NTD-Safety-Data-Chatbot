@@ -31,12 +31,24 @@ BATCH_SIZE = 64   # Smaller batches = less data lost on timeout
 MAX_RETRIES = 5
 
 
+def _get_secret(key: str) -> str | None:
+    """Read a secret from env vars (local) or st.secrets (Streamlit Cloud)."""
+    value = os.getenv(key)
+    if value:
+        return value
+    try:
+        import streamlit as st
+        return st.secrets.get(key)
+    except Exception:
+        return None
+
+
 def _client() -> voyageai.Client:
-    api_key = os.getenv("VOYAGE_API_KEY")
+    api_key = _get_secret("VOYAGE_API_KEY")
     if not api_key:
         raise EnvironmentError(
-            "VOYAGE_API_KEY not set. Add it to your .env file. "
-            "Get a free key at https://dash.voyageai.com"
+            "VOYAGE_API_KEY not set. Add it to your .env file (local) "
+            "or Streamlit secrets (cloud). Get a free key at https://dash.voyageai.com"
         )
     return voyageai.Client(api_key=api_key)
 
