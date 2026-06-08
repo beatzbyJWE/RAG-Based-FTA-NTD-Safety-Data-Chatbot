@@ -1,6 +1,6 @@
-# FTA Safety Insights Assistant
+# Transit Safety Insights Assistant
 
-A RAG (Retrieval-Augmented Generation) chatbot that lets you ask plain-English questions about Federal Transit Administration Major Safety Events data — powered by Claude (Anthropic).
+A RAG (Retrieval-Augmented Generation) chatbot that lets you ask plain-English questions about publicly available Major Safety Events data published by the Federal Transit Administration. This is powered by Claude Sonnet.
 
 **Live demo:** *(deploy link goes here after Streamlit Cloud deployment)*
 
@@ -106,7 +106,6 @@ Open the local host in your browser.
 ## Project structure
 
 ```
-fta-safety-assistant/
 ├── app.py                  # Streamlit UI
 ├── requirements.txt
 ├── .env.example
