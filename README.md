@@ -69,6 +69,7 @@ This is data I helped validate and publish during my time managing the National 
 ### Prerequisites
 - Python 3.10+
 - An Anthropic API key ([get one here](https://console.anthropic.com))
+- A Voyage AI API Key
 
 ### Install
 
@@ -81,8 +82,7 @@ pip install -r requirements.txt
 ### Configure
 
 ```bash
-cp .env.example .env
-# Edit .env and add your ANTHROPIC_API_KEY
+# Edit your .env and add your ANTHROPIC_API_KEY and Voyage_API_Key
 ```
 
 ### Build the index (one time)
