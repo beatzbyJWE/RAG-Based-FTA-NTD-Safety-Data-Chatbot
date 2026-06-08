@@ -2,7 +2,7 @@
 
 A RAG (Retrieval-Augmented Generation) chatbot that lets you ask plain-English questions about publicly available Major Safety Events data published by the Federal Transit Administration. This is powered by Claude Sonnet.
 
-**Live demo:** *(deploy link goes here after Streamlit Cloud deployment)*
+**Live demo:** *[Streamlit](https://rag-based-fta-ntd-safety-data-chatbot-w33isbufm3f3xhcpekjvy6.streamlit.app/)*
 
 ---
 
