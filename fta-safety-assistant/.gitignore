@@ -1,0 +1,9 @@
+.env
+data/fta_safety_events.json
+data/vectors.npz
+data/metadata.json
+data/embed_checkpoint.json
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/secrets.toml
