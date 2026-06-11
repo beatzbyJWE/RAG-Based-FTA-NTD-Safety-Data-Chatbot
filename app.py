@@ -1,7 +1,7 @@
 """
 app.py
 ------
-Streamlit UI for the FTA Safety Insights Assistant.
+Streamlit UI for the Transit Safety and Security Assistant.
 
 Run with:
     streamlit run app.py
@@ -17,17 +17,19 @@ CLOUD_RECORD_LIMIT = 10_000  # Keeps cold-start build under ~2 minutes
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="FTA Safety Insights Assistant",
+    page_title="Transit Safety and Security Assistant",
     page_icon="🚇",
     layout="centered",
 )
 
 # ── Header ────────────────────────────────────────────────────────────────────
-st.title("🚇 FTA Safety Insights Assistant")
+st.title("🚇 Transit Safety and Security Assistant")
 st.caption(
-    "Ask plain-English questions about Federal Transit Administration Major Safety Events data. "
-    "Answers are grounded in the public dataset published on [data.transportation.gov]"
-    "(https://data.transportation.gov/Public-Transit/Major-Safety-Events/9ivb-8ae9)."
+    "Ask plain-English questions about transit Major Safety Events data. "
+    "Answers are grounded in the public dataset published by the Federal Transit Administration "
+    "on [data.transportation.gov]"
+    "(https://data.transportation.gov/Public-Transit/Major-Safety-Events/9ivb-8ae9). "
+    "This is an independent project, not affiliated with or endorsed by FTA or U.S. DOT."
 )
 
 # ── Index: auto-build if missing ──────────────────────────────────────────────
@@ -39,7 +41,7 @@ def load_or_build_index() -> int:
 
     # Index not found — build it now (first cold start on Streamlit Cloud)
     placeholder = st.empty()
-    placeholder.info("⏳ First launch: building search index from FTA safety data. This takes about 2 minutes — please wait.")
+    placeholder.info("⏳ First launch: building search index from public transit safety data. This takes about 2 minutes — please wait.")
 
     with st.spinner("Fetching safety events from data.transportation.gov..."):
         df = fetch_fta_data(limit=CLOUD_RECORD_LIMIT, use_cache=False)
@@ -132,7 +134,7 @@ for msg in st.session_state.messages:
 prefill = st.session_state.pop("prefill", None)
 
 # Chat input
-user_input = st.chat_input("Ask a question about FTA transit safety data...")
+user_input = st.chat_input("Ask a question about transit safety data...")
 question = prefill or user_input
 
 if question:
@@ -178,5 +180,6 @@ st.caption(
     "Built by [Joseph Eldredge](https://eldredgemgmtconsulting.com) · "
     "Data: FTA National Transit Database via DOT Open Data Portal · "
     "AI: Claude (Anthropic) · "
-    "[Source code](https://github.com/beatzbyJWE/fta-safety-assistant)"
+    "[Source code](https://github.com/veridisquojoe/RAG-Based-Transit-Safety-Security-Data-Chatbot) · "
+    "Independent project — not an official FTA or U.S. DOT product"
 )

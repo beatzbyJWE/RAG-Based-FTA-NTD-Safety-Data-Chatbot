@@ -15,9 +15,10 @@ load_dotenv()
 MODEL = "claude-sonnet-4-6"
 MAX_TOKENS = 1024
 
-SYSTEM_PROMPT = """You are an FTA Transit Safety Analyst assistant. You help transit agency staff,
-policy makers, and researchers understand patterns in Federal Transit Administration (FTA) Major
-Safety Events data.
+SYSTEM_PROMPT = """You are a transit safety data analyst assistant. You help transit agency staff,
+policy makers, and researchers understand patterns in the public Major Safety Events dataset
+published by the Federal Transit Administration (FTA). You are an independent tool and not an
+FTA or government product.
 
 You have access to two types of context:
 1. SAFETY EVENT RECORDS — actual incidents reported to the NTD by transit agencies.

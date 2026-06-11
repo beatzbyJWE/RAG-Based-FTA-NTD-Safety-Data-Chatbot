@@ -1,6 +1,8 @@
-# Transit Safety Insights Assistant
+# Transit Safety and Security Assistant
 
 A RAG (Retrieval-Augmented Generation) chatbot that lets you ask plain-English questions about publicly available Major Safety Events data published by the Federal Transit Administration. This is powered by Claude Sonnet.
+
+> **Disclaimer:** This is an independent portfolio project. It is not affiliated with, endorsed by, or an official product of the Federal Transit Administration or the U.S. Department of Transportation. FTA is referenced only as the publisher of the underlying public dataset.
 
 **Live demo:** *[Streamlit](https://rag-based-fta-ntd-safety-data-chatbot-w33isbufm3f3xhcpekjvy6.streamlit.app/)*
 
@@ -74,8 +76,8 @@ This is data I helped validate and publish during my time managing projects for 
 ### Install
 
 ```bash
-git clone https://github.com/beatzbyJWE/fta-safety-assistant.git
-cd fta-safety-assistant
+git clone https://github.com/veridisquojoe/RAG-Based-Transit-Safety-Security-Data-Chatbot.git
+cd RAG-Based-Transit-Safety-Security-Data-Chatbot
 pip install -r requirements.txt
 ```
 
@@ -147,4 +149,4 @@ The transit safety domain is one I know well. The same architecture applies to H
 ## Author
 
 **Joseph Eldredge** | PMP, CPMAI  
-[LinkedIn](https://www.linkedin.com/in/joseph-eldredge-75ab6349/) · [GitHub](https://github.com/beatzbyJWE)
+[LinkedIn](https://www.linkedin.com/in/joseph-eldredge-75ab6349/) · [GitHub](https://github.com/veridisquojoe)
