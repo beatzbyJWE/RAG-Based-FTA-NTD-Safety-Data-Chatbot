@@ -4,7 +4,7 @@ A RAG (Retrieval-Augmented Generation) chatbot that lets you ask plain-English q
 
 > **Disclaimer:** This is an independent portfolio project. It is not affiliated with, endorsed by, or an official product of the Federal Transit Administration or the U.S. Department of Transportation. FTA is referenced only as the publisher of the underlying public dataset.
 
-**Live demo:** *[Streamlit](https://rag-based-fta-ntd-safety-data-chatbot-w33isbufm3f3xhcpekjvy6.streamlit.app/)*
+**Live demo:** *[Streamlit](https://rag-based-transit-safety-security-data-chatbot.streamlit.app/)*
 
 ---
 
